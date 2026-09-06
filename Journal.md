@@ -1,4 +1,126 @@
 
+## 6 September 2026 — Finishing the Schematic and Correcting Footprints
+
+**Time spent: ~2h 30min**
+
+### Returning to the schematic
+
+After returning from vacation, I continued working on the Crazy-75 schematic.
+
+I first connected the Raspberry Pi Pico-compatible RP2040 controller to the keyboard matrix. The current matrix uses 6 rows and 15 columns, so I assigned the GPIOs as follows:
+
+- GP0–GP14 → COL1–COL15
+- GP15–GP20 → ROW1–ROW6
+- GP21 → rotary encoder A
+- GP22 → rotary encoder B
+- GP26 → RGB data
+- GP27 and GP28 remain unused
+
+The rotary encoder push switch is part of the keyboard matrix, so it does not require another dedicated GPIO.
+
+![Pico and keyboard matrix](images/2026-09-06-pico-matrix.png)
+
+### Pico power and USB
+
+I checked the pinout of the RP2040 Pico-compatible board I selected for the project. It exposes the standard 26 GPIO pins and has SWD debug pads, but does not expose USB D+ and D- separately.
+
+Because of this, using a separate USB-C connector on the keyboard PCB would add unnecessary complexity. I decided to use the USB-C connector already present on the Pico-compatible board despite power-draw concerns caused by the 80 LEDs. 
+
+The +5 V rail for the RGB LEDs is connected to VBUS. I also connected AGND to GND.
+
+The RGB brightness will need to be limited in firmware because 80 SK6812 MINI-E LEDs could draw far too much current if all LEDs were driven at maximum brightness.
+
+### Comparing the design with another KEEB keyboard
+
+I looked through the Tap65 project, another custom keyboard funded through Hack Club KEEB, to compare its design with mine.
+
+This turned out to be very useful. The project made me realise that I had used generic switch symbols/footprints rather than footprints intended for the Kailh hot-swap sockets I plan to use.
+
+It also highlighted how important it is to verify the SK6812 MINI-E pinout and footprint before manufacturing, since an incorrect LED footprint/pin mapping can make the RGB chain unusable.
+
+### Installing marbastlib
+
+I went back to the ebastler KiCad repository to install the keyboard-specific library.
+
+At first I accidentally installed the **Connect-traces** plugin. When I still could not find the keyboard symbols and footprints I was looking for, I realised that I actually needed to install the **marbastlib** library separately.
+
+After installing marbastlib, the correct keyboard-specific symbols and footprints became available.
+
+### Correcting the switch footprints
+
+I replaced the existing switch setup with the marbastlib Kailh hot-swap MX footprints for CPG151101S11 sockets.
+
+Changing the switch symbols caused the existing electrical connections to be lost, so I had to reconnect the switches to the matrix and their diodes.
+
+This took some extra work, but the schematic now matches the type of hot-swap sockets that will actually be used on the PCB.
+
+![Corrected hot-swap matrix](images/2026-09-06-hotswap-matrix.png)
+
+### Verifying the RGB LEDs
+
+I also changed/verified the SK6812 MINI-E setup using the marbastlib resources.
+
+The RGB system currently consists of:
+
+- 80 × SK6812 MINI-E LEDs
+- 80 × 100 nF decoupling capacitors
+- one 470 Ω resistor before the first LED
+- +5 V and GND distribution
+- a daisy chain from DOUT of each LED to DIN of the next LED
+- RGB_DATA from GP26
+
+The LED symbols did not visibly change when changing them, but the correct library resources and footprints are now assigned.
+
+![SK6812 MINI-E chain](images/2026-09-06-rgb-chain.png)
+
+### Rotary encoder
+
+I verified the previously selected EC11 rotary encoder and assigned its footprint.
+
+The encoder will control volume, with its push button intended for mute/unmute.
+
+Its rotation pins use GP21 and GP22, while the push button is connected through the keyboard matrix.
+
+### Stabilizers
+
+I found a cheaper set of well-reviewed PCB-mount screw-in stabilizers and updated the BOM.
+
+The layout requires stabilizers for:
+
+- Backspace
+- Enter
+- Left Shift
+- 6.25u Spacebar
+
+I added the corresponding stabilizer footprints to the schematic. Since stabilizers are purely mechanical, they do not require electrical connections.
+
+I also investigated lubricating the stabilizers. GPL205 is available in 10 g jars for around €10. This is much more lubricant than one keyboard needs, so I have not decided yet whether it is worth including in the funded BOM or buying separately.
+
+### BOM updates
+
+I updated the BOM with the newly selected screw-in stabilizers and the other component decisions made today.
+
+At this point, every component in the schematic has a footprint assigned and all electrical components are connected.
+
+### Current schematic
+
+The schematic is now much closer to being ready for PCB layout.
+
+![Crazy-75 schematic at end of day](images/2026-09-06-complete-schematic.png)
+
+### Next steps
+
+- Run KiCad ERC and investigate any warnings/errors
+- Do a final check of component pinouts and footprints
+- Transfer the schematic to PCB Editor
+- Import/recreate the physical keyboard layout
+- Determine the best location and orientation for the Pico module
+- Place stabilizers, hot-swap sockets, LEDs, diodes and capacitors
+- Begin PCB routing
+
+---
+
+
 ## 27 August 2026 — Starting the PCB Schematic
 
 **Time spent: ~1h 10min**
