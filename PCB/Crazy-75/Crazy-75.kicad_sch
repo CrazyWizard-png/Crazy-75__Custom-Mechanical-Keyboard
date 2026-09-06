@@ -25751,7 +25751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Enter"
 			(at -180.34 62.1029 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31885,7 +31885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Left Shift"
 			(at -180.34 69.7229 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38777,7 +38777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
+		(property "Value" "Backspace"
 			(at -180.34 77.3429 0)
 			(show_name no)
 			(do_not_autoplace no)
