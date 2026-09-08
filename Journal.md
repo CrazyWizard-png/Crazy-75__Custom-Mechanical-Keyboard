@@ -1,4 +1,121 @@
 
+## 8 September 2026 — Final Schematic Checks and PCB Component Placement
+
+**Time spent: ~2h40**
+
+Today I finished checking the schematic and made significant progress on the physical PCB layout.
+
+I first ran KiCad's Electrical Rules Checker (ERC). This exposed several small issues left over from earlier schematic changes, including unused Pico pins, the unused DOUT of the final RGB LED, and a typo in the `RGB_DATA` net. I added no-connect flags to intentionally unused pins and corrected the RGB data label.
+
+The remaining ERC warning was caused by the Pico symbol treating AGND and GND as power outputs even though they are intentionally connected. I excluded this false positive.
+
+I also revisited the RGB data signal. The RP2040 outputs 3.3 V logic while the SK6812 MINI-E LEDs are powered from 5 V, so directly driving them is outside the guaranteed input voltage specification. I compared this with two other keyboard projects, `daneski13/Junco` and `lambdakb/keyboard-lk7d`, which also use level shifting between a 3.3 V MCU and 5 V addressable LEDs.
+
+I added an SN74AHCT1G125 level shifter between GP26 and the first LED, powered from 5 V with a 100 nF decoupling capacitor. The output then passes through the existing 470 Ω resistor before reaching LED1. After this change, ERC passed with no errors.
+
+![Final schematic](images/2026-09-08-final-schematic.png)
+The picture above is the final schematic I ended up with at the end of the day. 
+
+I then moved on to PCB placement. While checking the physical layout against my original keyboard layout, I discovered that I only had 79 MX switches instead of the required 80. One switch was missing from the Shift/Z row. I added SW80 and another diode to an unused matrix position and then corrected the component numbering so that switches and their associated components follow the physical keyboard from left to right, row by row. 
+
+All 80 switch footprints were then placed using exact coordinates derived from the original KLE layout. I also adjusted the rotary encoder position manually because the calculated position left it farther away than I wanted.
+
+Next I placed the four PCB-mount stabilizers for Backspace, Enter, Left Shift and the 6.25u Spacebar, centered on their respective switches.
+
+Before placing the remaining repetitive components, I designed a standard component arrangement around one switch. For SW1 I settled on:
+
+- LED: `(0, +5.08 mm)` relative to the switch
+- 100 nF LED capacitor: `(-0.37, +10.00 mm)`, rotated 180°
+- Matrix diode: `(-7.62, +7.50 mm)`, rotated 90°
+
+I tested adjacent key cells to make sure these positions would not collide. The capacitor extends slightly into the otherwise unused space at the top of the next key cell, while still leaving enough room around the LED for tweezers during hand assembly.
+
+Placing three components manually for every one of the 80 switches would have required hundreds of coordinate edits, so I used KiCad's Python scripting interface instead. I first tested a script on SW1 which found the switch, LED, capacitor and diode footprints by reference and calculated their positions from the switch coordinates.
+
+After verifying that the script reproduced my manually chosen SW1 positions exactly, I expanded it to automatically place the components for the whole keyboard.
+
+Here is the code I used: 
+```
+
+exec('''
+board = pcbnew.GetBoard()
+
+def get_fp(ref):
+    for fp in board.GetFootprints():
+        if fp.GetReference() == ref:
+            return fp
+    raise RuntimeError(f"Footprint {ref} not found")
+
+LED_DX = 0.00
+LED_DY = 5.08
+
+CAP_DX = -0.37
+CAP_DY = 10.00
+CAP_ROT = 180
+
+DIODE_DX = -7.62
+DIODE_DY = 7.50
+DIODE_ROT = 90
+
+for n in range(1, 81):
+    sw = get_fp(f"SW{n}")
+    led = get_fp(f"LED{n}")
+    cap = get_fp(f"C{n}")
+    dio = get_fp(f"D{n}")
+
+    sx = pcbnew.ToMM(sw.GetPosition().x)
+    sy = pcbnew.ToMM(sw.GetPosition().y)
+
+    led.SetPosition(
+        pcbnew.VECTOR2I_MM(
+            sx + LED_DX,
+            sy + LED_DY
+        )
+    )
+
+    cap.SetPosition(
+        pcbnew.VECTOR2I_MM(
+            sx + CAP_DX,
+            sy + CAP_DY
+        )
+    )
+    cap.SetOrientationDegrees(CAP_ROT)
+
+    dio.SetPosition(
+        pcbnew.VECTOR2I_MM(
+            sx + DIODE_DX,
+            sy + DIODE_DY
+        )
+    )
+    dio.SetOrientationDegrees(DIODE_ROT)
+
+pcbnew.Refresh()
+
+```
+If you decide to use this code, make shure to first run `import pcbnew` once before running any commands using `pcbnew` like this one. 
+
+This reduced what would have been roughly 240 repetitive footprint placements to a few seconds of automated placement followed by manual inspection and adjustment.
+
+Some exceptions still needed manual work. I moved diodes around the stabilized keys where the standard placement conflicted with stabilizer hardware, and moved the bottom-row LED capacitors upward so they would not sit unnecessarily close to the PCB edge.
+
+After checking the arrow cluster, stabilized keys, bottom row, navigation column and several regular key areas, the repeated component layout looks solid.
+
+![PCB component placement](images/2026-09-08-key-component-placement.png)
+
+One issue I noticed is the Spacebar lighting. The 6.25u Spacebar currently has only one RGB LED in its center, which will probably produce noticeably uneven lighting compared with the rest of the keyboard. I will revisit this later and likely add additional LEDs underneath the Spacebar.
+
+### Next steps
+
+- Find a suitable position for the large Raspberry Pi Pico module while keeping its USB-C port accessible from the case.
+- Place the RGB level shifter and its decoupling capacitor.
+- Check remaining mechanical/component clearances.
+- Decide how to improve Spacebar lighting.
+- Continue PCB layout and begin planning the routing once component placement is finalized.
+
+---
+
+
+
 ## 6 September 2026 — Finishing the Schematic and Correcting Footprints
 
 **Time spent: ~2h 30min**
