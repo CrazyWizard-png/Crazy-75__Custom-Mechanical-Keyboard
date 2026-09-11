@@ -1,5 +1,115 @@
 
-## 8 September 2026 — Final Schematic Checks and PCB Component Placement
+# 11 September 2026
+
+**Time spent: 2 h 30 min**
+
+Today I finished the component placement for the PCB and made several changes to the electronics and BOM.
+
+## Microcontroller change
+
+I replaced the full-size Raspberry Pi Pico with a much smaller **TENSTAR RP2040 Pro Micro Development Board (16 MB)**.
+
+The Pico was difficult to integrate into the keyboard without either making the PCB wider or reserving a large empty area for it. The Pro Micro-sized RP2040 board is only around 33 × 18 mm and is much easier to fit into the existing layout while still providing enough GPIO for the keyboard. 
+
+I got the appropriate symbol and footprint from `rroels/kicad_pro_micro_rp2040`.
+
+The unnecessary **M1 key was removed** because it still did not fit comfortably and I did not see much practical use for it anyway.
+
+![Finished schematic](images/Final-schematic.png)
+
+## Final component placement
+
+I finished placing all components on the PCB.
+
+This included:
+
+- switches
+- hot-swap sockets
+- matrix diodes
+- SK6812 MINI-E LEDs
+- 100 nF LED decoupling capacitors
+- stabilizers
+- rotary encoder
+- RP2040 Pro Micro controller
+- SN74AHCT1G125 level shifter
+- associated resistor/capacitor components
+- two additional LED + capacitor sets
+
+The two additional LEDs were added to improve lighting on the larger keys, especially where a single LED would otherwise leave the key unevenly illuminated.
+
+![Finished PCB component placement](images/Finished-component-placement.png)
+
+## Decoupling capacitor placement lesson
+
+While checking the final placement, especially around stabilizers and other tight areas, I noticed an important issue with the LED decoupling capacitors.
+
+Because +5 V and GND are global nets, KiCad does not electrically associate a particular capacitor with a particular LED. From the schematic's perspective, every point on +5 V is the same net and every point on GND is the same net.
+
+Therefore, the **physical PCB placement** of the decoupling capacitor matters. Each capacitor should be positioned close to its corresponding LED's VDD and VSS pads so that the final routed connection between the capacitor and LED is short.
+
+I adjusted the automatic placement offsets in the python code accordingly.
+
+The final capacitor placement relative to its switch is:
+
+```python
+CAP_DX = 6.58
+CAP_DY = 5.00
+CAP_ROT = -90
+```
+
+This replaces the previous capacitor offset used by my placement script.
+
+The Python placement script from the previous work session therefore remains useful, but the capacitor offsets were updated to reflect the improved physical layout.
+
+## Placement checks and manual adjustments
+
+After finding the new optimal capacitor placement, the Python script handled most of the repetitive placement work, but I manually checked areas where the standard key-cell arrangement could cause problems.
+
+This included:
+
+- stabilizer areas
+- larger keys
+- the bottom row
+- arrow/navigation area
+- controller area
+- rotary encoder area
+
+Components were moved manually where necessary rather than forcing every key to use exactly the same arrangement.
+
+This reinforced that scripting is very useful for establishing a consistent starting layout, but unusual keys still need manual PCB-layout checks.
+
+## BOM updates
+
+The BOM was updated with:
+
+- **TENSTAR RP2040 Pro Micro Development Board, 16 MB**
+- a tweezer set containing:
+    - one straight fine-tip tweezer
+    - one curved fine-tip tweezer
+
+The tweezers are needed for handling the small components during assembly, especially SMD.
+
+## Current status
+
+The schematic is now finished and the PCB has all of its components placed.
+
+The basic physical layout is therefore largely established. The remaining work is mainly turning the ratsnest into an actual manufacturable PCB.
+
+### Next steps
+
+1. Define/finalize the PCB outline.
+2. Plan the +5 V and GND distribution for the RGB LEDs.
+3. Route the keyboard matrix.
+4. Route the remaining controller and encoder signals.
+5. Add appropriate power/ground copper pours.
+6. Run DRC and fix routing/clearance problems.
+7. Inspect the final board in the 3D viewer.
+8. Prepare manufacturing files once the PCB passes the checks.
+
+---
+
+
+# 8 September 2026 - Final Schematic Checks and PCB Component Placement
 
 **Time spent: ~2h40**
 
@@ -116,7 +226,7 @@ One issue I noticed is the Spacebar lighting. The 6.25u Spacebar currently has o
 
 
 
-## 6 September 2026 — Finishing the Schematic and Correcting Footprints
+# 6 September 2026 - Finishing the Schematic and Correcting Footprints
 
 **Time spent: ~2h 30min**
 
@@ -238,7 +348,7 @@ The schematic is now much closer to being ready for PCB layout.
 ---
 
 
-## 27 August 2026 — Starting the PCB Schematic
+# 27 August 2026 - Starting the PCB Schematic
 
 **Time spent: ~1h 10min**
 
@@ -289,7 +399,7 @@ Fun fact about me: I never listen to music while working because I find it distr
 ---
 
 
-## 26 August 2026 - Specification and Layout
+# 26 August 2026 - Specification and Layout
 **Time spent: ~1 hour**
 
 ### What I did
@@ -377,7 +487,7 @@ The remaining major parts to source include switches and keycaps as well as the 
 ---
 
 
-## 25.08
+# 25 August 2026
 
 **Time spent: 1h**
 
