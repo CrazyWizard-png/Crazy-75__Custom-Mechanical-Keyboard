@@ -1,4 +1,57 @@
 
+# 13 September 2026 - PCB Mechanical Checks & 3D Validation
+
+**Time spent: 1 h 30 min**
+
+Continued working on the physical PCB layout and checking whether the component arrangement would actually work mechanically.
+
+## RP2040 placement and PCB outline
+
+I spent time finding a practical position for the new **TENSTAR RP2040 Pro Micro 16 MB** module. Its USB-C connector created an important constraint: placing the module completely flush against the keyboard PCB would place solder pads for the first pins very close to the edge while soldering the module directly to the PCB further back would make the port unusable.
+
+The current best solution I could come up with is to mount the RP2040 using **female socket headers / spacers**, which I then added to the BOM, raising the module above the keyboard PCB. This should provide enough room for the USB-C connector while also making the controller replaceable instead of permanently soldering it directly to the PCB.
+
+The PCB was also finally given its **Edge.Cuts outline**, using approximately **3 mm clearance around the outer keys**. According to what I have read, that is a safe number while not adding to much unnecessary slack.
+
+## Considering PCB flex cuts
+
+I also looked into **PCB flex cuts** after seeing them used in custom mechanical keyboards in a 3 years old LTT video to provide a "softer bottom-out feel without the mushiness of a membrane keyboard".
+
+After looking at the completed component arrangement, there is very little convenient empty space for meaningful flex cuts. Adding them now would complicate routing considerably and require a lot of component repositioning, so the idea will probably be dropped. Flexibility can instead be considered later through the plate material and case mounting system.
+
+## 3D Viewer checks
+
+I opened KiCad's **3D Viewer**, initially mostly out of curiosity, and it turned into a surprisingly useful mechanical sanity check.
+
+The viewer revealed that the **hotswap socket footprints were on the wrong side of the PCB**. The footprints, including their pads, were flipped to the back side so the sockets now sit underneath the PCB as intended.
+
+This lead to a clearance issue between a hotswap socket pad and its nearby diode. The diode placement was adjusted to provide safer clearance.
+
+![Correct_hot-swap_socket_placement](Correct_hot-swap_socket_placement.png)
+
+The 3D Viewer then revealed a second important mistake: the **SK6812 MINI-E LEDs were also mounted on the wrong side**. Since these are reverse-mount LEDs intended to shine through their PCB opening toward the switch/keycap, they were flipped to the correct side as well.
+
+The diode and capacitor positions around the switches were consequently adjusted again. The top-row diodes received additional manual positioning where necessary.
+
+![Individual-switch-arrangement](Individual-switch-arrangement.png)
+
+After these corrections, the 3D model finally looks mechanically sensible.
+
+This was an important reminder that a PCB can look perfectly reasonable in the 2D editor while still containing a physical assembly mistake. **Checking the board in the 3D Viewer caught errors that could otherwise have resulted in an unusable manufactured PCB.**
+
+## Next step
+
+- Routing
+
+![13-09-2026_Finished-component-arrangement](13-09-2026_Finished-component-arrangement.png)
+
+![PCB-3D-viewer-Front](PCB-3D-viewer-Front.png)
+
+![PCB-3D-viewer-Back](PCB-3D-viewer-Back.png)
+
+---
+
+
 # 11 September 2026
 
 **Time spent: 2 h 30 min**
