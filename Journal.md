@@ -1,4 +1,57 @@
 
+# 14 September 2026
+
+**Time spent: 1 h 45 min**
+
+### 3D visualization and mechanical validation
+
+I continued preparing the Crazy-75 PCB for the transition from PCB design into mechanical/case design.
+
+Added missing 3D models to the KiCad board so that the physical assembly can be inspected much more realistically. Models were added for:
+
+- MX switches
+- stabilizers
+- EC11 rotary encoder
+
+Keycap models were also considered but ultimately abandoned. Adding and aligning all of the different keycap sizes would require significant work while providing little additional value for checking the actual PCB.
+
+![Complete-PCB-3D-view](Complete-PCB-3D-view.png)
+
+### Another useful catch from the 3D Viewer
+
+The completed 3D visualization once again proved useful beyond simply making the project look good.
+
+With the physical components visible, I noticed another collision as well as several components near the PCB edge that looked poorly positioned, so I adjusted their placement before moving on. 
+
+This reinforces one of the lessons from the previous session: a PCB layout that appears fine in the 2D editor can still contain mechanical problems that become obvious once the real component geometry is visualized. This time it was due to the 3D visualization revealing what I did not immediately spot looking at the cluttered PCB designer view.
+
+### Gasket-mount research
+
+I Started researching the case and mounting system before beginning PCB routing.
+
+In search of understanding what a gasket-mount design looks like, I looked at several existing open-source gasket-mounted keyboard designs, particularly **hyhenry/Generic65** and **siderakb/facade**, which provide useful CAD files for studying how a complete gasket-mounted keyboard is constructed.
+
+Looking at real designs finally clarified the construction of a plate gasket mount:
+
+- the switches clip directly into the plate
+- the PCB hangs underneath and is mechanically connected through the switches
+- the plate carries the typing forces
+- gasket material sits between the plate and case
+- the gasket isolates the plate/PCB assembly from the rigid case and provides controlled compression and movement
+
+This means that **PCB mounting holes are not required for the intended plate-gasket mounting system**. Case mounting and PCB/plate mounting can be treated separately.
+
+This crossection from **siderakb/facade** specifically helped me a lot in understanding gasket-mounted case designs:
+
+![Gasket-mount_crossection](Gasket-mount_crossection.png)
+
+### Current state
+
+The PCB component placement is now effectively complete and has been inspected in 3D. Before committing to routing, the next stage will be designing the switch plate and basic gasket-mounted case. Once the mechanical constraints and gasket locations are established, PCB routing can begin without risking major mechanical changes afterward.
+
+---
+
+
 # 13 September 2026 - PCB Mechanical Checks & 3D Validation
 
 **Time spent: 1 h 30 min**
@@ -15,7 +68,7 @@ The PCB was also finally given its **Edge.Cuts outline**, using approximately **
 
 ## Considering PCB flex cuts
 
-I also looked into **PCB flex cuts** after seeing them used in custom mechanical keyboards in a 3 years old LTT video to provide a "softer bottom-out feel without the mushiness of a membrane keyboard".
+I also looked into **PCB flex cuts** after remembering seeing them used in custom mechanical keyboards in a 3 years old LTT video I once watched to provide a "softer bottom-out feel without the mushiness of a membrane keyboard".
 
 After looking at the completed component arrangement, there is very little convenient empty space for meaningful flex cuts. Adding them now would complicate routing considerably and require a lot of component repositioning, so the idea will probably be dropped. Flexibility can instead be considered later through the plate material and case mounting system.
 

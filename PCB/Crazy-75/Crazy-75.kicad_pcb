@@ -90,7 +90,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "02d0e18c-b3d0-45aa-9391-036490dfb2a3")
-		(at 302.08 -104.28 -90)
+		(at 283 -111.5 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C44"
@@ -137,16 +137,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "592032e0-3da2-4baa-bb18-7c94a1e0368c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/44edc923-e8ab-4935-b1ab-a061a7d1218c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -283,16 +289,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76df7876-dd25-4221-b8b7-f14d2b4892d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a73cf6e2-fc3d-429a-9302-64778110b1ed")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -429,16 +441,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39efd924-c8e5-4799-811d-e64452a38c7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/639e443c-fad7-4379-baca-29194131dbb7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -575,6 +593,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd90134f-ba17-40ee-bcc1-f0d038874c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -605,12 +635,6 @@
 		(path "/5d381a04-3011-473a-95eb-7f23a8f82762")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -865,16 +889,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7eae3f4-b43f-4baa-a453-2ace249dd177")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cc13da2b-679a-46d4-8678-d63bc6c23040")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1011,6 +1041,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "026f2ead-f705-49fa-bca8-6669d082cd4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -1041,12 +1083,6 @@
 		(path "/433bd47b-2d86-48ed-8375-b3754ef1dc60")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1254,11 +1290,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0b55c8b5-3ce8-4a93-9e8c-a6bcd310ad83")
-		(at 280 -97 -90)
+		(at 280.5 -106 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C71"
-			(at 0 -1.68 270)
+			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "e0d974f0-1ebb-4197-b085-0185075259f8")
 			(effects
@@ -1269,7 +1305,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 270)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "d737c8c4-9aca-4757-ae65-7a7e392b2d46")
 			(effects
@@ -1280,7 +1316,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a641dc6-fbb4-454e-98f1-6384274706b4")
@@ -1291,7 +1327,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b51427e8-1ec5-45db-ac99-42d545a09b67")
@@ -1301,16 +1337,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "35db135b-d87a-4411-a76b-357298b330f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0134afb6-58ae-464c-9912-8377e4f2f4a6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1356,7 +1398,7 @@
 			(uuid "60f08451-6231-462c-8dcd-74806c0d28cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "42b14f41-43de-4bd7-81ea-5fe2105773da")
 			(effects
@@ -1400,7 +1442,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0c2f1f88-8f71-4795-8c33-6120e507e242")
-		(at 302.08 -123.33 -90)
+		(at 283 -124.5 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C29"
@@ -1447,16 +1489,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bb1015dc-f28a-42a2-82fa-97622c346199")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/66977bda-038d-4a72-9acd-38d256a0825b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1546,7 +1594,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0dd496b0-28ef-40e7-a93b-f013106c0d03")
-		(at 17.5 -90.5)
+		(at 17.5 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C59"
@@ -1593,16 +1641,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "82287d3c-59f9-4308-9a67-ddf9303e7ebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0f01df64-e480-482f-892e-2a0d08052753")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1739,16 +1793,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea3089d6-7876-417f-af8f-e31a25152b75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e06bc953-d77e-4aa0-8413-835b6aa23b4c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1885,6 +1945,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "468178e9-d136-463a-a2a2-d2bb0d6824ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -1915,12 +1987,6 @@
 		(path "/c1c1d70d-d34c-472a-bbab-5cb2f213bed3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2175,16 +2241,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e309f504-8a06-4947-9f2d-14427a7b3273")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/20e7e918-5af1-45b4-8808-0cb96417e7cb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2321,16 +2393,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "42e4dd24-1448-42ec-b783-5198111b06d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8cd3ad99-8d14-4838-b12b-a742fd83c923")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2467,16 +2545,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ae0ad72-eb54-402f-9b2e-7226aa3a34f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/63e75418-f1f1-4428-99ae-2cc7b11b1174")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2613,16 +2697,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3a509222-a870-4238-af2e-98ffb3451ef1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bc23d19f-09db-4894-be9a-c3d2649f1a5b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2759,6 +2849,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fe1b558e-297c-4fe3-a256-1ebfd30ba2d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -2789,12 +2891,6 @@
 		(path "/0900cebf-9a1a-4d1a-a9eb-f5e4b338624e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3049,16 +3145,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "251206ca-a16b-4596-96e8-f16f6084d302")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/076b7a74-633d-45da-8bfc-7c889fed0800")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3195,6 +3297,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "74f0f9e2-7970-467f-b242-c0e5db83bbaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -3225,12 +3339,6 @@
 		(path "/f5ab845d-c260-4efe-978e-fab443577e69")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3485,16 +3593,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a0979203-0fb5-4806-a6de-1040d646d8a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6502f5c9-9672-4f9f-b71b-5a1e7957a5fb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3631,6 +3745,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c40bd758-380f-4b2a-a06d-718d40b8ab8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -3661,12 +3787,6 @@
 		(path "/f5b3db5a-c188-4b68-aa1e-d8c16e5c7a9b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3921,6 +4041,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef966d4d-d46b-408e-b9ec-7696eb5e5277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -3951,12 +4083,6 @@
 		(path "/5aef5c55-a3e6-46a7-ae6b-76143776be86")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4211,6 +4337,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4628b66-f16b-48a0-9116-857b537e0b60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4241,12 +4379,6 @@
 		(path "/167d7aae-aea8-4f5d-9a0c-48633fa24a52")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4501,16 +4633,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ff582d40-4931-4944-9e91-a653cbce1464")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1eb328be-55b6-490e-ba77-b4cd4ba5d5b3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4647,6 +4785,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d123c1ed-5ec7-40ff-9c86-3b838c7d89fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -4677,12 +4827,6 @@
 		(path "/3e49e9e2-019a-4dc7-91ff-5717e5d58b04")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4937,16 +5081,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f876ac47-52f9-4490-a874-2497a40f4c66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f9f1464a-595c-47ab-80e2-ad61ef6e5ad2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5083,6 +5233,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8f1bf5ac-4e50-4139-aece-fe7f949a3a44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -5113,12 +5275,6 @@
 		(path "/9a2b0c4e-f055-46d8-91b1-778c202bb002")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5373,16 +5529,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9601e26a-49ee-4e81-929e-039afb7db621")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8229baed-99f5-4e7f-a664-cc7fc10ce2a7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5519,16 +5681,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd6ba834-b860-4977-94e2-87b39352f07d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/17d4c7e6-a27e-43c3-8f31-43d52b1b24da")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5665,6 +5833,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6030a85f-26d7-4069-8f1b-dd54839429c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -5695,12 +5875,6 @@
 		(path "/e90e2941-d17c-4022-8fd2-7ab2eb91cdcd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5955,6 +6129,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "310d05c7-9c66-4a34-8874-eb15a250ab7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -5985,12 +6171,6 @@
 		(path "/be89c585-7755-453a-a6b1-4bff9740d1f4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6245,6 +6425,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d569562-828e-48fe-9e07-e048ab04582a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -6275,12 +6467,6 @@
 		(path "/c11a540c-b63e-484c-a5f7-cab0c39c8900")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6535,6 +6721,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6325ca97-6d5a-466f-b6d7-70f9ce504c80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -6565,12 +6763,6 @@
 		(path "/f41f0c97-781d-469e-93d9-1dd2c9ddd9fb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6825,16 +7017,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "68240729-13b6-40df-bb23-48dabab92e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e9a0e379-036d-4d5e-8e05-75ab1f139d8b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6971,16 +7169,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0882680d-541f-47cd-be24-df517df14614")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/bcfdfdd1-1cb8-4ce6-b266-1061abf551de")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7117,16 +7321,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c53785af-440a-4633-a606-ee6f595dc3e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7ba2e377-065a-4030-bf1a-d61bfaba3c91")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7263,16 +7473,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b604bd97-f9e9-4f72-bcac-cf6fb8fbc462")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8c0aa202-3cdd-4c69-898a-d3bf0e75a86a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7409,16 +7625,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "92cfcf01-e0bf-4d61-8432-276865a89c6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f352f048-1b9c-4b47-812a-3645d302461a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7555,6 +7777,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "71da1388-b697-4b7d-a303-a19e0a58d4f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -7585,12 +7819,6 @@
 		(path "/c59854c6-a2f9-4742-bfae-8610320c3c7b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7845,16 +8073,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ca0ea4d6-f043-4a85-b285-2fad14e780ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ddfb8d35-2e01-4d65-9fbe-efdf0308bafb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7994,12 +8228,6 @@
 		(path "/09030447-6803-4fa0-b57f-05f75204892a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8337,6 +8565,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_6.25u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -8388,6 +8627,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a8c4e273-5e5e-425e-b534-dd34bd6d8f79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -8418,12 +8669,6 @@
 		(path "/5a9d410c-eb5a-47f9-8317-dd5e03542ab8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8678,16 +8923,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c02e5b0-f81b-4237-aeac-909a3cc50f36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/16eb79cc-c295-43e0-b883-c7f9b48f42d9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8824,16 +9075,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b7f6fd69-fa14-4246-850e-b8b785dd337c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4ffea6ff-aef7-4512-b4ae-df62e7376fa4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8970,16 +9227,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "79d89f39-8140-465a-ad67-7b21a5bc9221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe5f8f6c-9ace-4db6-be8b-e233644d7c79")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9116,6 +9379,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4481e1d-a952-46ca-ad4f-251d6794d260")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9146,12 +9421,6 @@
 		(path "/a06455bf-0d6c-4aa4-a5b1-ab7346566664")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9406,16 +9675,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1ead2496-33e7-4fa5-8b9d-a510ec61b8ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/826d5335-4149-4193-8a5c-0b0dbaaafab9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9552,6 +9827,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c6e891d-a353-4cf4-890f-dc01345208a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9582,12 +9869,6 @@
 		(path "/ad86fe89-aa4b-405d-b1c7-35a602ba7449")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9842,6 +10123,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c78aaca2-6677-4a69-ae89-12caa7335d4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -9872,12 +10165,6 @@
 		(path "/d56f5dd6-0cbc-4034-baaa-fdfb27d4f1b4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10132,6 +10419,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43275b6a-7ef8-445d-8361-3dde32c10b72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -10162,12 +10461,6 @@
 		(path "/af52f0bb-e07b-4c1e-b63b-203e440fca8b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10422,6 +10715,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "824c1cd7-fc1d-44cd-9477-36e228243301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -10452,12 +10757,6 @@
 		(path "/3710a714-9d72-4756-9fe5-cfff69be5322")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10712,16 +11011,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "edcb30e1-0472-4359-8350-6eaf0bfbfb8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ae8562a7-14b5-4f4e-ad93-874649f3e814")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10858,6 +11163,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66c2447f-7edd-4cf4-becb-a3c61a3d5e17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -10888,12 +11205,6 @@
 		(path "/efe1e24b-ee5a-444c-9b3e-691513d0b1df")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11148,6 +11459,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "668ac464-29b2-4235-9069-82572abeaa44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -11178,12 +11501,6 @@
 		(path "/20ad0bf9-b04b-4b51-8fbf-48c7c9732c06")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11391,11 +11708,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "54133a3b-b14e-4eca-a376-3a0b8de3931b")
-		(at 244.316299 -111.0375 180)
+		(at 231.5 -100.19 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D70"
-			(at 3.81 -2.12 180)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "1a9fc9c4-fee6-491a-9951-92a319558abf")
 			(effects
@@ -11406,7 +11723,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 180)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "979dd967-4d78-4913-8790-447ac595ac00")
 			(effects
@@ -11417,7 +11734,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50f60155-64a7-4945-81d3-3c6f8bf76f8b")
@@ -11428,7 +11745,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1e84d9a-f733-4c26-96ad-4d98ff8ce92b")
@@ -11438,8 +11755,20 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5f17bdce-c22f-4efa-986a-52be97632cd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11452,7 +11781,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -11468,24 +11797,8 @@
 		(path "/2de616a1-9199-455c-bb5c-43d683635f1b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cc226c4f-0b4f-4be9-8f9d-5138e70c9d00")
-		)
 		(fp_line
 			(start 2.53 -1.12)
 			(end 2.53 1.12)
@@ -11515,6 +11828,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f28beb00-fff7-4ac2-a125-3740f980ac31")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cc226c4f-0b4f-4be9-8f9d-5138e70c9d00")
 		)
 		(fp_line
 			(start 1.04 0)
@@ -11549,16 +11872,6 @@
 			(uuid "a486d383-9494-4f7a-8ed9-cf9132de2220")
 		)
 		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "3b6ce922-c13a-4bd1-b667-d0fe3352758a")
-		)
-		(fp_line
 			(start 2.51 -1)
 			(end 2.51 1)
 			(stroke
@@ -11589,6 +11902,16 @@
 			(uuid "23c846d4-4447-4564-825c-36633efb6c41")
 		)
 		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3b6ce922-c13a-4bd1-b667-d0fe3352758a")
+		)
+		(fp_line
 			(start 0 0)
 			(end 1.81 0)
 			(stroke
@@ -11610,7 +11933,7 @@
 			(uuid "6a994a04-454b-4895-af36-a94067546a73")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 180)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "771bf90b-c019-4631-b7df-4e308d9fd5a1")
 			(effects
@@ -11620,19 +11943,8 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 4.11 0 180)
-			(layer "F.Fab")
-			(uuid "83b4084b-52e9-47d9-9f1a-e99df37a0523")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(fp_text user "K"
-			(at 0 -1.8 180)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "efc9b6f3-24e9-4933-86af-9dda8a6b156c")
 			(effects
@@ -11642,8 +11954,19 @@
 				)
 			)
 		)
+		(fp_text user "${REFERENCE}"
+			(at 4.11 0 90)
+			(layer "F.Fab")
+			(uuid "83b4084b-52e9-47d9-9f1a-e99df37a0523")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11655,7 +11978,7 @@
 			(uuid "5fe741c8-b512-41f2-9c52-77f22f02e4b5")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0 180)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11728,16 +12051,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b9e3064-e658-4d66-869c-409a3e211a27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/cbdc0612-2923-4cd7-8656-66c65d6a8bb2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11874,6 +12203,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a35d54d6-1ce2-4384-9f70-9e03654cfe60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -11904,12 +12245,6 @@
 		(path "/648bf787-f750-425d-a247-457d13f86ea6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12164,6 +12499,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "28657ab2-0ad9-4358-8ce0-e181897af39a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -12194,12 +12541,6 @@
 		(path "/c71ca228-3325-4ffa-b969-e6fc45e88477")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12454,16 +12795,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2f1ce34b-cb65-41d8-9963-6a32b03d1771")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7325e413-b4e7-439e-8003-2ac01a906df1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12600,6 +12947,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51d5eb14-0d0d-4e0e-a4d8-dcefb655a736")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -12630,12 +12989,6 @@
 		(path "/b43f9b55-bb32-4499-8cab-51674050c847")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12890,6 +13243,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d856b5c7-e3fa-4a7b-9aec-dfaef98f27e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -12920,12 +13285,6 @@
 		(path "/9e089c18-6dc9-4471-917c-e31a3f11eab9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13180,16 +13539,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6e11185-4124-47ce-8340-75966b959b5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/34e868fb-c5cb-4783-b827-ba77b9328c4b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13326,16 +13691,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "53dd954d-e330-4d83-9786-894df334a255")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d0737538-9f05-4e0b-8b90-90de65f54a69")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13425,7 +13796,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "691d5e2e-b60c-4df5-a5df-dd4e6b79c52f")
-		(at 279.5 -146.81 -90)
+		(at 279.5 -145.12 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D81"
@@ -13472,6 +13843,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6b03873-096f-4b6e-b377-d9f4852e1695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 270)
 			(unlocked yes)
@@ -13502,12 +13885,6 @@
 		(path "/34d55247-0cae-4679-8a90-d906b9e85850")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13762,6 +14139,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "541cc2d5-db90-40b0-ad61-bbc0b3dea527")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -13792,12 +14181,6 @@
 		(path "/b0664515-0050-45c9-ad4b-4ca10a153a58")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14052,6 +14435,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd95ebf2-ffc9-4d27-b6b2-144f68f59d08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -14082,12 +14477,6 @@
 		(path "/6cb7bfcd-7c5a-4e63-ada8-1e401fc4b018")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14342,16 +14731,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b6b51fd-13ef-4da8-a86e-dcfbfc766d3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/8d043e6c-6c39-47f6-9509-53477f860463")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14488,16 +14883,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e7a3217b-a168-4346-b766-56b6195d97f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/84c3557d-2115-4f2e-9cd3-acb86d4ec762")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14634,6 +15035,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8a31312f-02c0-435e-957d-9ec906a077dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -14664,12 +15077,6 @@
 		(path "/b8914f0e-d248-4888-8265-15a06f6e6f02")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14877,7 +15284,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "75147b60-c8c9-477b-befb-c11cb8a53f2d")
-		(at 298.1375 -95.55)
+		(at 297.3625 -93.45)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
@@ -14924,16 +15331,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f6ea9e33-33d3-4184-9996-3e63478375dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT* SG-*")
 		(path "/0c7d4ab3-89a3-496b-bb25-891fe271a7cb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "5" "3" "1" "4")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15311,16 +15724,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d1a13c27-9999-4c22-9bf4-9d908de579b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0b32e357-741b-4390-a308-58b95d1cc437")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15457,16 +15876,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "723dc8ea-7079-4690-a0a9-f2835f1e54c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/576b1cce-7759-43e6-9253-56ede96f9fbe")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15603,6 +16028,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1cfdb687-c337-424b-8642-3fb619afa0b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -15633,12 +16070,6 @@
 		(path "/4f49643d-c72b-45fa-a9de-0264e4eee18d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15893,6 +16324,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1ed974fd-1de9-414f-83c7-ce373e6e465e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -15923,12 +16366,6 @@
 		(path "/5c5c562a-941a-4b5c-a662-07a5df920b3b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16183,16 +16620,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c78917b-9e02-42cf-911d-7d562d65df44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/c962b069-4486-4c81-8649-532deeaa2ee2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16329,16 +16772,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ac44edd-cef9-48dc-9324-28c7e05d4d75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fdd6802e-ad57-4537-a9f4-893da6a084af")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16475,16 +16924,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5bccff74-f9ed-4ac7-8adf-78b1c25ca538")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/745318a8-af92-4b8a-964e-db3090458d2b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16621,6 +17076,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bfb41891-a97a-4bf4-91b7-89f312e5309c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -16651,12 +17118,6 @@
 		(path "/c2d13d8a-62b8-4211-8874-b59e95ba0205")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16911,6 +17372,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2c323a7-3e0c-4b1c-9fdf-d10ee765dab7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -16941,12 +17414,6 @@
 		(path "/4a3fe9b5-70bb-46d9-a869-ca9d59c25167")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17201,16 +17668,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "348df31f-4a83-4969-a3eb-d2c7053130a1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a1524aa1-4aa1-4a48-9553-8eb86455818a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17347,6 +17820,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1b3ca3f2-c718-4aa2-8a05-399a2504f1c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -17377,12 +17862,6 @@
 		(path "/d825dbbf-2b64-491c-a252-173eea41da93")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17637,6 +18116,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a4dcd779-9d9f-4af5-be6a-1a1d4258ff94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -17667,12 +18158,6 @@
 		(path "/205e7b56-95e9-4755-b46f-33ffbf27cff2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17927,16 +18412,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e7747f76-11f0-4e07-9282-40e50584f54c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b732b278-f09d-493a-a3d9-b3896c7b18e1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18073,6 +18564,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e36a342-4d17-47a0-b5cc-987b8a17c1cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 270)
 			(unlocked yes)
@@ -18103,12 +18606,6 @@
 		(path "/7833b7ca-3cc4-415a-9d67-6a8f917ba83b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18363,6 +18860,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86126560-f7c9-45c6-800e-d294fda359a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -18393,12 +18902,6 @@
 		(path "/b43d36a1-2d0c-4cbf-b6bb-2c9867245fed")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18656,12 +19159,6 @@
 		(path "/a93bfcab-057d-4855-84f4-61f29529306d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18999,6 +19496,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -19050,16 +19558,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12d7c8d0-039d-4750-ad05-6f8f10f1aa4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/6676d09b-5eab-426c-87d4-36da5a080bf8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19196,6 +19710,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a7fb8c67-5bbc-480c-a00f-7c9c6fc9d711")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -19226,12 +19752,6 @@
 		(path "/29ec14a9-5a5b-4f87-a049-452430c754d6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19486,6 +20006,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a60faf9d-88af-4fb7-a4ca-5cf2fe1c1b6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -19516,12 +20048,6 @@
 		(path "/2913325c-5333-4bfb-9542-ad3a9a249072")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19776,6 +20302,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5e6bd23-5e45-4031-a0cc-440861cb098c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -19806,12 +20344,6 @@
 		(path "/2f8d90db-bd42-4ed6-92a7-71f26ee90d67")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20066,16 +20598,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "81b50dba-37fb-452c-8b08-4d4cf531ac45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/658cec32-413b-474d-b6fb-6988498714fb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20212,16 +20750,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a749969c-53b6-41ae-a284-8558486df537")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4c45cabf-87ad-4b14-bc3f-e38d4661f20d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20358,16 +20902,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "44621aec-7477-455f-b5ed-855cbb516827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4c0d47ac-f00a-4a92-b871-185306364c92")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20457,11 +21007,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "92339a25-8ba6-4ebe-8b29-f41637237b59")
-		(at 293 -97.5 180)
+		(at 292.5 -94 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C83"
-			(at 0 -1.68 0)
+			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "ce0a7e3e-ca6e-4391-a8e7-b28a58d21cf5")
 			(effects
@@ -20472,7 +21022,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.68 0)
+			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "d9b8896c-3e46-400a-b7dd-c0cbcc6226ec")
 			(effects
@@ -20483,7 +21033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1922fcf0-daf1-4826-bb68-921c5130ab89")
@@ -20494,7 +21044,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1dea4bb8-022e-4e8a-985c-3c5c1dc73601")
@@ -20504,16 +21054,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f663690a-a63c-43ca-93ca-c8dbd8271192")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a0846bd1-4725-4d34-8873-7cf80a18d57b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20559,7 +21115,7 @@
 			(uuid "4f4f21d9-4788-4ba9-b414-974290d59ef5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "07032b47-78ce-4b9b-be23-358252b3f4e9")
 			(effects
@@ -20570,7 +21126,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0 180)
+			(at -0.95 0 270)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20579,7 +21135,7 @@
 			(uuid "e5184d97-39b5-4232-906a-9442ea692705")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0 180)
+			(at 0.95 0 270)
 			(size 1 1.45)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -20650,6 +21206,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2dbc6fad-bc98-4ae4-8f64-f1eb60f03193")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -20680,12 +21248,6 @@
 		(path "/e943852e-37d3-4ede-a04f-f6aa6344d337")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20940,6 +21502,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0ec063c4-a76f-42eb-a79e-a3c05c8b7f02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -20970,12 +21544,6 @@
 		(path "/3b17e57e-308c-40a1-8311-73d664fdfa09")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21230,16 +21798,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76584130-2061-4a7f-ba9d-df2539608cc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ade52130-65e3-4269-bfc9-91172adcec29")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21376,6 +21950,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6690c399-a226-4ed9-9946-9b3397a38355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -21406,12 +21992,6 @@
 		(path "/e7409657-6dee-410d-9b3f-f9d245353e6f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21666,16 +22246,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0f23ab05-4011-416e-9bd0-10c145419e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/711a210e-9e6c-4f31-bb04-23c630d1c5d3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21815,12 +22401,6 @@
 		(path "/eed2b121-a725-4aac-b521-1001f1381965")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22158,6 +22738,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
@@ -22209,16 +22800,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ae228717-d9e3-4c88-95eb-99eb1fa3bf57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9286e2d2-214d-4e7a-8b71-c52977dff36a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22355,6 +22952,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a09d2742-33a5-48a3-9424-5a34758dd151")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -22385,12 +22994,6 @@
 		(path "/7e045551-ab2a-4fc6-b09f-fc3e8f6549bd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22598,11 +23201,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9ee3dd1f-a74d-45ce-b454-85d8927976c5")
-		(at 293.08 -93.5 180)
+		(at 291.5 -99 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 0)
+			(at 4.5 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "eebd7d39-eccc-4f08-b368-df9a3ae539af")
 			(effects
@@ -22645,16 +23248,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "resistor/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "27197e97-1177-4cc9-bc34-0244548d68fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c32b7298-24fd-4b5c-84fd-212007b82dc9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22824,6 +23433,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "64f4030d-f0ad-4814-aef8-89dd4d1c4dfe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -22854,12 +23475,6 @@
 		(path "/038b000f-3858-4011-a08a-49d3c9f07eac")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23114,16 +23729,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "72dd0657-6588-4aec-9243-85a0121769f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e8b24d7e-8b6c-467a-bd8d-23a2ee0fb5d1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23260,16 +23881,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c352fe2d-ddec-4e1d-8bbc-3c1d0a4a627a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/3b4e9f04-1534-44c4-8407-1d4bec6a39b7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23406,6 +24033,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4c4f6eea-fc32-4566-b1b2-56206fb2a408")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -23436,12 +24075,6 @@
 		(path "/2cab8e17-c619-4da3-832a-0647d09a56a5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23696,16 +24329,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f2a12df6-27f9-4f5d-8c7e-3b2050fd5ddc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f960aae0-f470-44c0-a5a3-530774786141")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23842,16 +24481,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da05fcb9-bca2-4148-8b09-1e9643729eac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b6f69a85-fa99-4f14-915c-d0e32ed4b83d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23988,6 +24633,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e19f6da0-c705-4c45-b57c-579e99d60bf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -24018,12 +24675,6 @@
 		(path "/0071d78a-dbf1-49ab-90b1-8c55b34b81cd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24278,6 +24929,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ed8f6da4-0516-40c8-967a-f87ee8c916bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -24308,12 +24971,6 @@
 		(path "/9a1b21f7-a246-4947-8a63-5af2caa0534b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24568,6 +25225,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8d4f314b-8654-4551-bfa1-5f151e0e23c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -24598,12 +25267,6 @@
 		(path "/1fc694c0-8be5-4cfb-b8f6-0f6c27979154")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24858,16 +25521,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87e61826-1a87-4ef5-ae21-1d1d90fa3e43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a5d8f5cd-73ca-4572-989d-b701ac0b259b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25004,6 +25673,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b0facbb-31d6-4ed1-bdbf-2af389d7b569")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -25034,12 +25715,6 @@
 		(path "/fe714f09-db6d-4af2-bb26-ce43f2aafd7c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25294,16 +25969,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a02d5486-cb12-432c-a384-563773adca22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e63ddf2b-8128-477b-9e56-35fd22876b81")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25440,16 +26121,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a9a05e08-c62e-46b8-aab5-8d841f9f4f3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/609a89b3-dde1-47f9-b7b5-5664f5dbbb94")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25586,16 +26273,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bf037de5-ee3f-4ea2-833d-d2a8c6c0736f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4a9507e5-a8a7-432f-9911-546f0618402c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25732,6 +26425,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0b3827d5-d62a-4620-9cc9-f2da467eeef4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -25762,12 +26467,6 @@
 		(path "/8176a382-0c13-4c4e-a8be-c78de7589b99")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26027,15 +26726,6 @@
 		(path "/d7f40579-1d33-4d69-ad88-fec96a76702e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "10" "0" "1" "GND" "2" "3" "4" "5" "6" "7" "8" "9" "12" "BOOT"
-					"13" "25" "14" "18" "15" "24" "16" "11" "5V" "RST" "3V3" "29" "28" "27"
-					"26" "22" "20" "23" "21"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26640,16 +27330,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b305d1a-ed73-404c-bb94-1a9c3658c5d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4cfceff3-ef86-4e75-b107-d67b26f2c85e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26786,6 +27482,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f3a6efe7-3fe3-4e56-a289-0374fe39e9bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -26816,12 +27524,6 @@
 		(path "/151b9248-2b43-45e2-851d-c2555fd2490d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27076,6 +27778,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a2a7490e-1cec-4953-98ae-7c4f2f6cff13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -27106,12 +27820,6 @@
 		(path "/3bb739df-d557-4e81-9a3b-9e844618f517")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27366,16 +28074,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a541cbe9-ac9c-4373-9cd9-e38d067f7630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fe1af696-4220-44d2-a81e-75cdf87cc734")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27512,6 +28226,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "760de7cd-ef03-4e04-a951-813d6b75d746")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -27542,12 +28268,6 @@
 		(path "/f08dc430-a84a-4a83-9c0f-0b6be4cc6af3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27802,6 +28522,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b62e8a4c-275c-45cf-8138-7fd4d01981f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -27832,12 +28564,6 @@
 		(path "/a3586df7-8468-4641-b876-6e71f38d1483")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28092,16 +28818,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a5f468a4-9841-45bc-aaa3-2f84fbb60377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/87e639af-4055-4334-bb72-b7da14db3c51")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28238,6 +28970,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "33dc8b46-2ae2-43d4-833c-20eacb3dbe04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -28268,12 +29012,6 @@
 		(path "/1919cf5d-bcab-41f9-abd4-915e1355135f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28528,6 +29266,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "945ebe3d-a201-4e8e-ac7b-78c7f7dfe5d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -28558,12 +29308,6 @@
 		(path "/ebb3294e-abff-4b55-ba25-690c2d37b884")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28818,16 +29562,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7914f1d-b47a-4e0f-9a57-4a3c28ff93e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f90975f1-a696-409a-8e12-c0e1d416fe70")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28964,16 +29714,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5c7bd8cb-e2d2-4246-b97a-030ffec2386d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e274863b-92de-47de-aad5-a5b6b9feed60")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29110,16 +29866,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a6940f58-3c82-4d0d-91dd-ac7d20cd1b8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/afaea684-c2d1-41d5-9dcd-d9f03397e7fd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29256,16 +30018,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "abfbb610-6d35-4688-a427-967908217cad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e8174e45-81ac-43b0-9374-12c70f74be28")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29402,16 +30170,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3776df1f-62d3-49e6-9b4b-e0413c3a11b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7a44c101-0353-44d4-9775-7adba5128550")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29548,6 +30322,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd5b8251-df20-441c-8556-7bad0c598367")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -29578,12 +30364,6 @@
 		(path "/797361bf-f65a-4a96-8430-1c993aad0847")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29838,6 +30618,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9b3074f2-9c06-49e9-93e1-9cdfb560cac1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -29868,12 +30660,6 @@
 		(path "/5d9c23eb-091d-4322-ac88-878cd5f61683")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30128,16 +30914,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "abcd6a9b-f802-40e6-9410-d0d14c018ead")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/4157dc57-8415-4c9b-acda-8028febb7066")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30274,16 +31066,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea779125-6be8-4b3f-b273-ec4db86fd2e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/659d8444-cc07-4a38-b05a-c641877713f3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30420,16 +31218,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b586361a-a60d-4276-8873-6627b97bbbb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/29df3c20-a657-4bd1-911c-4c2a7a596a8d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30566,6 +31370,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d608085b-1af1-4664-9c15-40c26c4d4d5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -30596,12 +31412,6 @@
 		(path "/ac727b76-59d6-4bf6-a934-b4b6a42f269f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30856,6 +31666,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da60b316-20a7-41d4-93f3-a2fb342064f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -30886,12 +31708,6 @@
 		(path "/7c1b0b04-b470-445f-99f8-a708a59b6e79")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31146,16 +31962,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d0ac9e5e-440b-4e2f-913a-96f2f24b2d08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/55bec002-d096-4593-9f26-7b5639e8f777")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31292,6 +32114,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fba4b12d-b90f-461b-98e8-713b0ee8b4da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -31322,12 +32156,6 @@
 		(path "/36dc5724-87d0-43e1-b188-32185f87107b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31582,16 +32410,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3d0b732e-297f-4679-9d22-444c88818bc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/eeedb50a-f63d-42aa-9260-b89a37d8345f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31731,12 +32565,6 @@
 		(path "/71217ac0-198c-4d68-bfc7-f8d74b4b173a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32074,6 +32902,17 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/Stabilizer_Cherry_MX_2.00u.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -32125,6 +32964,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "617c2575-8265-4407-8c7b-99c09e261169")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -32155,12 +33006,6 @@
 		(path "/0f7045a6-87e9-4eac-91ef-a8ee387d93a8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32368,11 +33213,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "df6744ed-07fe-4fec-9451-857f96a0e498")
-		(at 265.7475 -149.1375 180)
+		(at 280.5 -156.81 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D43"
-			(at 3.81 -2.12 180)
+			(at 3.81 -2.12 90)
 			(layer "F.SilkS")
 			(uuid "7a42c128-19ee-4b7e-8f5a-1a7fe2ebe491")
 			(effects
@@ -32383,7 +33228,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 180)
+			(at 3.81 2.12 90)
 			(layer "F.Fab")
 			(uuid "ef47fb88-1567-48ff-8638-3ba920e46202")
 			(effects
@@ -32394,7 +33239,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8499cb84-7145-40ed-8775-44336c75324d")
@@ -32405,7 +33250,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37492300-d922-48e8-8fc1-ed43e1a83e68")
@@ -32415,8 +33260,20 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f79d30a-83c9-46dd-99b5-3df4d2577d77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32429,7 +33286,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 180)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32445,14 +33302,18 @@
 		(path "/4e944aaa-5316-4981-a02d-6ca12faad626")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.04 0)
+			(end 1.69 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "754fb045-fcac-419e-8547-f099b3b97ba3")
+		)
 		(fp_line
 			(start 6.58 0)
 			(end 5.93 0)
@@ -32462,26 +33323,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "f1231111-3aaa-438c-96df-c21a9244b9a0")
-		)
-		(fp_line
-			(start 2.53 -1.12)
-			(end 2.53 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "519cdb03-ec08-4769-8a31-0f8a7fa89778")
-		)
-		(fp_line
-			(start 2.41 -1.12)
-			(end 2.41 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3fd29afa-e372-4f02-9f58-bbaecdf0a674")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -32494,14 +33335,24 @@
 			(uuid "b66afc54-9303-4629-9ed8-7bec8a86f67b")
 		)
 		(fp_line
-			(start 1.04 0)
-			(end 1.69 0)
+			(start 2.41 -1.12)
+			(end 2.41 1.12)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "754fb045-fcac-419e-8547-f099b3b97ba3")
+			(uuid "3fd29afa-e372-4f02-9f58-bbaecdf0a674")
+		)
+		(fp_line
+			(start 2.53 -1.12)
+			(end 2.53 1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "519cdb03-ec08-4769-8a31-0f8a7fa89778")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -32526,6 +33377,16 @@
 			(uuid "68a9387f-af52-4c35-a802-8c993924449b")
 		)
 		(fp_line
+			(start 0 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "10a65ce3-6317-460f-a55b-4aff1d211b3e")
+		)
+		(fp_line
 			(start 7.62 0)
 			(end 5.81 0)
 			(stroke
@@ -32534,26 +33395,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "291046cd-c8d8-4901-901c-b34110ad2454")
-		)
-		(fp_line
-			(start 2.51 -1)
-			(end 2.51 1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1fcd024d-9638-4c33-986d-2b34b46f86e6")
-		)
-		(fp_line
-			(start 2.41 -1)
-			(end 2.41 1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "092274d1-21e7-4a5c-bc10-66d3daba7696")
 		)
 		(fp_line
 			(start 2.31 -1)
@@ -32566,14 +33407,24 @@
 			(uuid "b107653c-68a8-416a-8d43-200fac734e83")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.81 0)
+			(start 2.41 -1)
+			(end 2.41 1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "10a65ce3-6317-460f-a55b-4aff1d211b3e")
+			(uuid "092274d1-21e7-4a5c-bc10-66d3daba7696")
+		)
+		(fp_line
+			(start 2.51 -1)
+			(end 2.51 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1fcd024d-9638-4c33-986d-2b34b46f86e6")
 		)
 		(fp_rect
 			(start 1.81 -1)
@@ -32587,7 +33438,7 @@
 			(uuid "6fca6b55-17bf-4e05-8509-802a02cb7761")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 180)
+			(at 0 -1.8 90)
 			(layer "F.SilkS")
 			(uuid "e8857df0-5cc1-48f4-a439-d3c1b18c0ff2")
 			(effects
@@ -32598,7 +33449,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 180)
+			(at 4.11 0 90)
 			(layer "F.Fab")
 			(uuid "015a8243-35e9-40cf-8268-3d1d06bdac2a")
 			(effects
@@ -32609,7 +33460,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 180)
+			(at 0 -1.8 90)
 			(layer "F.Fab")
 			(uuid "b52ea0a8-0ec7-4238-b111-83834715783e")
 			(effects
@@ -32620,7 +33471,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 180)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -32632,7 +33483,7 @@
 			(uuid "87951965-5d4d-4293-99a9-5e63dadf4f1f")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0 180)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -32705,16 +33556,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8896efa6-20e3-4e35-af56-59ed6d5f5d97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/9367786c-b4b2-4a33-b86d-4f95721736b0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32851,6 +33708,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0064da78-6d4b-45f2-bc2a-d74948f0f167")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -32881,12 +33750,6 @@
 		(path "/37d65f23-515c-45c9-86cc-fd339cbb8697")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33141,16 +34004,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c046f39-b301-43b5-8ac2-b998ec646c08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e43fc52a-225d-47ab-8720-a5d358738b7e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33287,16 +34156,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e196119-5110-400a-9e00-580c95c47790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1f32a8b4-2635-404a-b56d-6d442b0f3438")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33433,16 +34308,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0c020a5e-76fd-4d8e-a0cd-3ff977526114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0b9d610b-c067-4427-9754-957919ff087a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33579,6 +34460,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ab771cbf-d71e-4c85-8c1f-a1a46741f156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -33609,12 +34502,6 @@
 		(path "/ec174383-f5c4-4838-9e41-8ca8cc1f01d5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33869,6 +34756,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8cb2535-9668-407c-a7c3-49517d1b9300")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 270)
 			(unlocked yes)
@@ -33899,12 +34798,6 @@
 		(path "/51999951-1a2b-4e9e-aaa1-f95f6b94c52e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34159,6 +35052,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d0f10730-cbbd-4547-b70c-32fccdeaed84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -34189,12 +35094,6 @@
 		(path "/3962f67c-1a1e-4e01-80fc-29623bb02efa")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34449,16 +35348,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a9709dac-cc54-4977-97db-01bbafc4725a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/836c44a5-8743-48b8-8b86-2e70f68a28f2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34595,6 +35500,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7142d632-fd75-4f80-8132-4359a024423b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -34625,12 +35542,6 @@
 		(path "/10964c9e-f0bb-41d8-a4a7-fc1a938e1193")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34885,16 +35796,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2685c023-e7b4-4dfb-b520-d4e61acc61be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/0372d655-fc48-4afa-b7d0-91b433bc4f25")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35031,6 +35948,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd280436-31c9-42e5-81ee-e68064fbab0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -35061,12 +35990,6 @@
 		(path "/28bd0bea-b711-4640-af36-a4c7c8d018ef")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35321,6 +36244,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66a9ad63-8646-45cd-a528-868d57e332d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -35351,12 +36286,6 @@
 		(path "/e643ee36-928e-44b8-8d96-154b2a5ad107")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35611,16 +36540,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eae11541-0944-4f99-ac48-6cdd31ebdea6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a427fb06-14aa-4b18-902b-6525d03124fd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35757,16 +36692,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da7a7ebf-c92b-4027-80ff-d8fadb9b9e3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/79e062d2-a944-4c1d-9aed-4857d5b2528e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35911,12 +36852,6 @@
 		(path "/4445c09e-f0ca-4285-9806-9daefa040783")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A" "C" "B" "S1" "S2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36264,7 +37199,7 @@
 			(uuid "748b3227-c85d-4b32-aa45-ee436ac4e440")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm.step"
+		(model "${KICAD10_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/ROT_EC11E.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36326,16 +37261,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f05a7484-8536-4045-a05a-80643c26c8e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/7f865285-5859-4c0b-b73b-7992ea38e43a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36472,16 +37413,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3ea55edc-9fd2-44d0-a07b-706007560165")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d170c2f7-43be-42cb-9336-adbd0c4346e6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36571,11 +37518,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fbe387e4-807b-422b-b1eb-267b58a0a66a")
-		(at 301 -90.62 -90)
+		(at 281 -93.5)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D80"
-			(at 3.81 -2.12 90)
+			(at 3.5 -2 0)
 			(layer "F.SilkS")
 			(uuid "dd2750c4-209b-42ac-9ad1-539ce9215736")
 			(effects
@@ -36586,7 +37533,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 90)
+			(at 3.81 2.12 0)
 			(layer "F.Fab")
 			(uuid "09276668-1376-42b3-8f96-5da65059f1c0")
 			(effects
@@ -36597,7 +37544,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed328f9f-8df0-42b0-88e7-e9edc34d0516")
@@ -36608,7 +37555,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65403451-3e57-4352-a9db-2b40c279364e")
@@ -36618,8 +37565,20 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3b563c39-f546-4167-86d8-c4c4aa10076a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36632,7 +37591,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36648,12 +37607,6 @@
 		(path "/a1e62d7b-4393-4cc9-927f-4824f7d34198")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36665,16 +37618,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "fcccb5da-08e4-4ab8-8ab7-6e18c0dca7b0")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9e99cabf-baed-4216-93ed-31e2f544100c")
 		)
 		(fp_line
 			(start 2.29 -1.12)
@@ -36705,6 +37648,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a1857a65-e35b-4ea7-8136-9bddf424c241")
+		)
+		(fp_line
+			(start 6.58 0)
+			(end 5.93 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9e99cabf-baed-4216-93ed-31e2f544100c")
 		)
 		(fp_rect
 			(start 1.69 -1.12)
@@ -36739,16 +37692,6 @@
 			(uuid "30a2ca57-04eb-4c0b-8ed1-67d0e08d81de")
 		)
 		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6bf8c68e-b056-4eec-bcf7-332ed542e92c")
-		)
-		(fp_line
 			(start 2.31 -1)
 			(end 2.31 1)
 			(stroke
@@ -36778,6 +37721,16 @@
 			(layer "F.Fab")
 			(uuid "3cea143f-296d-4905-8c81-8565876d0d99")
 		)
+		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6bf8c68e-b056-4eec-bcf7-332ed542e92c")
+		)
 		(fp_rect
 			(start 1.81 -1)
 			(end 5.81 1)
@@ -36790,7 +37743,7 @@
 			(uuid "e27dae51-33fe-4957-b2f0-969880e24ead")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 90)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(uuid "729c0558-52a5-4607-9eb1-298412e6f47f")
 			(effects
@@ -36800,19 +37753,8 @@
 				)
 			)
 		)
-		(fp_text user "${REFERENCE}"
-			(at 4.11 0 90)
-			(layer "F.Fab")
-			(uuid "55fc38e9-75af-4865-817a-684581653692")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(fp_text user "K"
-			(at 0 -1.8 90)
+			(at 0 -1.8 0)
 			(layer "F.Fab")
 			(uuid "470d5d7f-2060-4fde-a9a5-b21abec89976")
 			(effects
@@ -36822,8 +37764,19 @@
 				)
 			)
 		)
+		(fp_text user "${REFERENCE}"
+			(at 4.11 0 0)
+			(layer "F.Fab")
+			(uuid "55fc38e9-75af-4865-817a-684581653692")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 270)
+			(at 0 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -36835,7 +37788,7 @@
 			(uuid "a59ed3f2-c931-43b0-9e95-7a4307e02f71")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0 270)
+			(at 7.62 0)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -36861,7 +37814,7 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fc7f7168-24a4-4c23-996e-d2ba70cebeac")
-		(at -4 -97.31 -90)
+		(at -1 -120.31 -90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D72"
@@ -36908,6 +37861,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d83a4fa9-4398-4602-8048-d90e3dce984e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 270)
 			(unlocked yes)
@@ -36938,12 +37903,6 @@
 		(path "/23489731-f145-41bd-a7bb-25f686e77346")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37198,6 +38157,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd7fcda2-0bcf-4f8f-a79e-b7581823f170")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -37228,12 +38199,6 @@
 		(path "/52aa3a8c-5f3e-4171-b86c-7cc9b2acc43c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37488,16 +38453,22 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 270)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f503f650-0a45-4cfa-b06f-17739f2be3ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/24614dfa-f8cb-4727-a199-683ff9216131")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37634,6 +38605,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f9e7ac4a-2b99-4805-91d6-92194b147a5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -37664,12 +38647,6 @@
 		(path "/0cafc390-9a77-4846-928e-6f5c0c400058")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37924,6 +38901,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e601c134-a872-4b0a-ac70-a2f6af21ec5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -37954,12 +38943,6 @@
 		(path "/2144b2a5-7471-40a0-96cb-a9ac9c1884a5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38214,6 +39197,18 @@
 				)
 			)
 		)
+		(property "KiLib_Generator" "diode/THT"
+			(at 0 0 180)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3711ad12-9fef-4503-bdc2-b5e5318ee3d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property "Sim.Device" "D"
 			(at 0 0 180)
 			(unlocked yes)
@@ -38244,12 +39239,6 @@
 		(path "/ff45b5f8-d80c-4c52-bea2-7856d67a2228")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38512,12 +39501,6 @@
 		(path "/c575d316-41c5-405d-a95f-a7562189388f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39060,6 +40043,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -39119,12 +40113,6 @@
 		(path "/46d9d8d6-079c-4c91-b4b1-86b4b8bb4262")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39667,6 +40655,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -39726,12 +40725,6 @@
 		(path "/f653f176-d6ce-4673-a48f-92393f4822df")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40274,6 +41267,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -40333,12 +41337,6 @@
 		(path "/691ae618-04a2-4c37-bf3c-57ddf6b2f5c9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40881,6 +41879,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -40941,12 +41950,6 @@
 		(path "/64db8a2b-692b-488e-b10d-ed0adb150eb9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -41451,12 +42454,6 @@
 		(path "/9ca9908a-3739-4089-bd8f-86a04bcb1439")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -41960,12 +42957,6 @@
 		(path "/fe38c222-2f4a-4e83-94f9-9f23fcb2c3d9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42508,6 +43499,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -42568,12 +43570,6 @@
 		(path "/bc9c8f17-999e-4eca-8009-c905c8586b5b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -43077,12 +44073,6 @@
 		(path "/31fc98af-d46f-4106-ab4a-9e7a0507a671")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -43625,6 +44615,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -43684,12 +44685,6 @@
 		(path "/73b7e402-ccac-42ed-850a-da0d9388023d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44232,6 +45227,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -44292,12 +45298,6 @@
 		(path "/fe26c3db-8da1-40c5-bf80-b95ac057accd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -44802,12 +45802,6 @@
 		(path "/e01ed5dd-01b6-4f16-abad-6fa661ee3c63")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -45311,12 +46305,6 @@
 		(path "/cf9188bf-dca8-415a-baac-8be6121cc78d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -45859,6 +46847,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -45919,12 +46918,6 @@
 		(path "/8940ea32-4817-4c21-b379-7e84a1b6ba17")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -46428,12 +47421,6 @@
 		(path "/547a338e-e923-467b-a149-c2bde23a70f4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -46976,6 +47963,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -47035,12 +48033,6 @@
 		(path "/402fca5d-7b61-414c-bee2-80213c6e7e24")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47583,6 +48575,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -47643,12 +48646,6 @@
 		(path "/98509f94-946d-42bf-ae71-bcb618e638aa")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -48153,12 +49150,6 @@
 		(path "/a5dd8956-002c-478c-b9f7-985a38c0e0b2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -48663,12 +49654,6 @@
 		(path "/22601293-ae7b-4687-8a2c-2947204f54cd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -49172,12 +50157,6 @@
 		(path "/417c9666-2d9e-48b5-8d08-4d92fad4552a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -49720,6 +50699,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -49780,12 +50770,6 @@
 		(path "/bd3759b9-a35c-40a7-be91-50f667f886ad")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -50290,12 +51274,6 @@
 		(path "/20e3d3b4-48fa-4306-b0e3-090f9ccb8c4b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -50800,12 +51778,6 @@
 		(path "/b07c100e-8571-4b4f-83bd-0933e8371312")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -51309,12 +52281,6 @@
 		(path "/7e9238bb-9798-4fb5-b4ae-fbc40a6a0aea")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -51857,6 +52823,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -51917,12 +52894,6 @@
 		(path "/ca6f89c7-395c-4d20-b9c8-fe371adba579")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -52426,12 +53397,6 @@
 		(path "/1e951653-b748-4cf9-8044-e3719e9aa3d7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -52974,6 +53939,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -53034,12 +54010,6 @@
 		(path "/4c44679d-aedf-4c2f-bd17-60a87fdb8ddc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -53544,12 +54514,6 @@
 		(path "/c98eb386-28e2-4e8a-9aae-0c1f88978578")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -54053,12 +55017,6 @@
 		(path "/67ec5dfe-7d8d-4211-b80e-fcd0686b8659")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -54601,6 +55559,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -54661,12 +55630,6 @@
 		(path "/8e02df4a-7864-4beb-abcd-f7fa1d1e2dc0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -55171,12 +56134,6 @@
 		(path "/d180995d-23cb-4ce0-b7d7-49485a565c47")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -55681,12 +56638,6 @@
 		(path "/e237e97e-4e36-44bc-bf43-539cf9df1689")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -56190,12 +57141,6 @@
 		(path "/1c45129b-9059-4e49-8f9d-914b52cbced2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -56738,6 +57683,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -56798,12 +57754,6 @@
 		(path "/16d7e7e9-4df9-4b5a-9b23-83ce0dbd81e6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -57307,12 +58257,6 @@
 		(path "/05fca85a-11ea-4754-818d-c04576750a25")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -57855,6 +58799,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -57914,12 +58869,6 @@
 		(path "/8f308465-2fa2-4a5b-81e8-6e33e8a84f55")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58462,6 +59411,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -58522,12 +59482,6 @@
 		(path "/0061c74c-488f-4b77-8210-829950b37513")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -59031,12 +59985,6 @@
 		(path "/fcfe315c-d2c5-424d-b2c1-aaf82acc91d1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -59579,6 +60527,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -59639,12 +60598,6 @@
 		(path "/4e91b7e7-2a1f-4ef3-aae3-2284bdff715f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -60149,12 +61102,6 @@
 		(path "/7bbd89d1-b965-4790-8438-010bc712f451")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -60659,12 +61606,6 @@
 		(path "/e08ca2eb-9304-488b-8fc2-f39cb602c8cc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -61169,12 +62110,6 @@
 		(path "/483e4c00-d6b9-415f-a9ad-57ed5a37cbc4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -61678,12 +62613,6 @@
 		(path "/0cea65d4-9e88-4a9f-82d5-0ebd72ecd375")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62226,6 +63155,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -62285,12 +63225,6 @@
 		(path "/a376d44c-ec15-445b-8c40-74e64bc49062")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62833,6 +63767,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -62892,12 +63837,6 @@
 		(path "/d3a9ebef-452d-4c82-a6e8-c8f9e488c6f6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63440,6 +64379,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -63499,12 +64449,6 @@
 		(path "/af6d3098-1167-4d02-83f9-1b1af2f0a12a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64047,6 +64991,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -64106,12 +65061,6 @@
 		(path "/3bef2788-e71e-446e-a6ba-2d790e325dbc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64654,6 +65603,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -64714,12 +65674,6 @@
 		(path "/4212a03d-a98e-46e1-bdb8-830e37d4ecd0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -65224,12 +66178,6 @@
 		(path "/1494ddbe-c56b-451c-a611-62b3c034de0f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -65733,12 +66681,6 @@
 		(path "/fa1933e9-20ed-413c-b180-cc70edce0d05")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66281,6 +67223,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -66341,12 +67294,6 @@
 		(path "/9241df06-a214-4202-b1c8-6a67ab11d18d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -66850,12 +67797,6 @@
 		(path "/7a8b0564-247e-4c7e-8abb-d34816624fc3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67398,6 +68339,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -67458,12 +68410,6 @@
 		(path "/5a315ae7-2b8b-4d31-9868-1b2682741256")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -67967,12 +68913,6 @@
 		(path "/47471b2e-1c0b-403d-a67c-9d7757131426")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -68515,6 +69455,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -68574,12 +69525,6 @@
 		(path "/2c467f38-af4d-48a0-bd3c-cbd9f8ef101e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -69122,6 +70067,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -69182,12 +70138,6 @@
 		(path "/4fe19b77-2870-4cbe-963d-264ee6d34197")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -69691,12 +70641,6 @@
 		(path "/2642ef35-368e-496a-95b4-dcc0ba7945ac")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70239,6 +71183,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -70298,12 +71253,6 @@
 		(path "/307a267c-9ee3-40f5-bc82-634c4a4b5977")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70846,6 +71795,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -70906,12 +71866,6 @@
 		(path "/db5a8bb9-f62d-4ac6-a31b-98e2470b3718")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -71415,12 +72369,6 @@
 		(path "/8ff6d9e7-b8a7-4698-9241-3c6717bd24f9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71963,6 +72911,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -72023,12 +72982,6 @@
 		(path "/a665808d-a961-410a-a5d2-dd47e905def8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -72532,12 +73485,6 @@
 		(path "/72caef8c-12e4-44e6-a847-ff579cb16818")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -73080,6 +74027,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -73140,12 +74098,6 @@
 		(path "/4e068e4c-ded5-472c-b02b-a018e2ad38ac")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -73650,12 +74602,6 @@
 		(path "/a2c59d27-da8a-4f1f-9ceb-952c4b23fcda")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -74160,12 +75106,6 @@
 		(path "/d99205c7-e8a6-430d-8cdc-6dba43827afc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -74670,12 +75610,6 @@
 		(path "/a63f11ca-9818-4f06-accf-4edafd9770ae")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -75180,12 +76114,6 @@
 		(path "/734d50f6-3a64-45cb-9aae-3887731b942b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -75690,12 +76618,6 @@
 		(path "/c99432c3-da4e-4e1f-ae66-4d12d31bfd71")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -76200,12 +77122,6 @@
 		(path "/49edb6b6-22b6-4ccb-b5a1-15ca83416298")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -76710,12 +77626,6 @@
 		(path "/ce0a42f4-abb7-40e8-b087-fe602af1d303")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -77220,12 +78130,6 @@
 		(path "/63b141d2-70bc-41f4-a533-918a4825a233")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -77730,12 +78634,6 @@
 		(path "/ef99c10b-9a73-40fd-81c4-33923664586c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -78239,12 +79137,6 @@
 		(path "/29f3939a-d7c0-4695-9af2-a43fe81b8846")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -78787,6 +79679,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -78846,12 +79749,6 @@
 		(path "/8a0649d9-52dd-4b83-a67c-636e885563e5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79394,6 +80291,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -79454,12 +80362,6 @@
 		(path "/bbc2f15f-dcd1-4e8f-9b96-a33996e31581")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -79963,12 +80865,6 @@
 		(path "/f9d9a951-8e64-40f9-98f5-b51a51b97b9d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80511,6 +81407,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -80571,12 +81478,6 @@
 		(path "/6d410f7b-8446-4271-a53b-7774c1c3b85f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -81081,12 +81982,6 @@
 		(path "/775c6a39-5647-4aa7-bce6-e3aaf705acea")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -81590,12 +82485,6 @@
 		(path "/9dff29e8-d180-4eb6-9106-0e28a3d97886")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82138,6 +83027,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -82197,12 +83097,6 @@
 		(path "/5b86d1a5-c466-46cb-b78d-667048dbcea9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82745,6 +83639,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -82805,12 +83710,6 @@
 		(path "/0b85c57e-4040-4786-82ad-6a68ebdb0997")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -83314,12 +84213,6 @@
 		(path "/55a96d04-c819-416b-baca-d4120f7a0453")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83862,6 +84755,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -83921,12 +84825,6 @@
 		(path "/bd6b8620-2630-4100-a483-8710c63ab68e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84469,6 +85367,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -84528,12 +85437,6 @@
 		(path "/4642f92d-1f28-4057-b00d-33d4c7c09951")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -85076,6 +85979,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -85136,12 +86050,6 @@
 		(path "/ff646fc8-9c52-42e9-9171-abe0085818af")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -85646,12 +86554,6 @@
 		(path "/4b5ad1ac-5f03-4b22-a10d-f5cc930cac56")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -86155,12 +87057,6 @@
 		(path "/94946d00-661b-4098-a3e5-6b15fe0cb3fd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -86703,6 +87599,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -86762,12 +87669,6 @@
 		(path "/6a6bf924-f535-4c9e-86bd-35a6e9470951")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87310,6 +88211,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -87370,12 +88282,6 @@
 		(path "/94ba2f67-511a-41ba-a65b-557e5fd5214b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -87880,12 +88786,6 @@
 		(path "/6fdb2a8b-92ba-431c-8486-ffb4c155374d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -88390,12 +89290,6 @@
 		(path "/59ea6173-062d-434e-8dab-3dd27d04baf4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -88900,12 +89794,6 @@
 		(path "/84820044-48bb-421a-8caa-35056416c827")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -89409,12 +90297,6 @@
 		(path "/85ddbf6d-8cf7-47c6-803c-e7159254e53a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -89957,6 +90839,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -90017,12 +90910,6 @@
 		(path "/f0ea8b57-eb3e-47f6-a703-a83291c4401c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -90527,12 +91414,6 @@
 		(path "/27c2e7ee-1354-4040-9597-717775aa3258")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -91036,12 +91917,6 @@
 		(path "/f729c932-eb76-45a2-9557-abd3908818ff")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -91584,6 +92459,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -91643,12 +92529,6 @@
 		(path "/d7f1faf3-2077-4805-880d-c130126b6276")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -92191,6 +93071,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -92251,12 +93142,6 @@
 		(path "/89a3c777-a766-4fe0-a898-9721a33a2e5c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -92761,12 +93646,6 @@
 		(path "/76b7d69c-46df-40d4-bd37-599190139d64")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -93270,12 +94149,6 @@
 		(path "/743188e0-f830-4cf8-8248-31e30cc51c04")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -93818,6 +94691,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -93878,12 +94762,6 @@
 		(path "/fbab5a63-a32e-48ce-8bca-f9d8615a2075")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -94388,12 +95266,6 @@
 		(path "/9b692dcf-39a7-4d4b-bd3e-cc3dc51bfd37")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -94898,12 +95770,6 @@
 		(path "/cfecf45b-0b3c-422a-b902-ef413b7d69d7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -95407,12 +96273,6 @@
 		(path "/1537e20b-2ad6-4d01-ab68-1c1b5963913a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -95955,6 +96815,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -96014,12 +96885,6 @@
 		(path "/18f25283-8889-40be-8e94-a6124aef23a4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -96562,6 +97427,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -96622,12 +97498,6 @@
 		(path "/648ecf1f-fcbf-4d9c-bb96-f9ba585f97dd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -97132,12 +98002,6 @@
 		(path "/d7533375-ff06-4cb4-9bbb-122669149d3d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -97641,12 +98505,6 @@
 		(path "/e2cde78f-7ce9-47ea-bab0-6758ef12408c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -98189,6 +99047,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -98249,12 +99118,6 @@
 		(path "/7ca22fe4-426a-4187-87b8-d5e51d0cef2d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -98758,12 +99621,6 @@
 		(path "/94b60ae6-d25e-4f66-850d-1ebc657f11f0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -99306,6 +100163,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -99366,12 +100234,6 @@
 		(path "/b3656b56-d830-4179-9ea3-6ec73f76f93b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -99875,12 +100737,6 @@
 		(path "/b450bbc9-1eeb-4337-b47a-a94a51519890")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -100423,6 +101279,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -100482,12 +101349,6 @@
 		(path "/ed870044-41e5-4eea-9a95-09d1eee9aa7c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -101030,6 +101891,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -101090,12 +101962,6 @@
 		(path "/f800928a-1a7f-4090-8d2c-b779887cfa22")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -101600,12 +102466,6 @@
 		(path "/b19ec720-0187-4c51-af57-b7ad1bd5d7d8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -102109,12 +102969,6 @@
 		(path "/79f68ec6-61e0-4a0f-bef1-bf867d6eaf92")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -102657,6 +103511,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -102716,12 +103581,6 @@
 		(path "/3e601e68-6e3b-4900-94fc-4f8608d05a8c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -103264,6 +104123,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -103323,12 +104193,6 @@
 		(path "/1cf41131-d08c-4fc5-b98b-66ad18240c6c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -103871,6 +104735,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -103931,12 +104806,6 @@
 		(path "/4425f6a5-cbd0-4e99-8309-53eb1cc98838")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -104440,12 +105309,6 @@
 		(path "/94f17224-27f7-48ee-8f6d-ed84f2cd8343")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -104988,6 +105851,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -105048,12 +105922,6 @@
 		(path "/cad4f345-8174-4f17-acf4-fa507a898686")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -105558,12 +106426,6 @@
 		(path "/c3d2d044-f1f3-4872-a847-09815f5ef8aa")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -106068,12 +106930,6 @@
 		(path "/eab084e2-4209-4f6e-8054-45ab9fbd82e9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -106578,12 +107434,6 @@
 		(path "/0d527cce-dc49-4393-a8ac-6e4fc0b2891f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -107087,12 +107937,6 @@
 		(path "/97d9167e-31ad-49ac-8156-f62f88667a22")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -107635,6 +108479,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -107695,12 +108550,6 @@
 		(path "/084ea199-c115-4ad0-9f1d-3653cc5b69b2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -108204,12 +109053,6 @@
 		(path "/1d0dc66c-60a2-420d-9c76-fd48e5557c7e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -108752,6 +109595,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -108811,12 +109665,6 @@
 		(path "/a691aff6-59f4-4614-9768-eafa1954a54d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -109359,6 +110207,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -109419,12 +110278,6 @@
 		(path "/04b92b33-2539-4e5f-8b5b-571c5b35f63f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -109928,12 +110781,6 @@
 		(path "/484eb112-44bc-4667-8d30-47436fc2c745")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -110476,6 +111323,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -110536,12 +111394,6 @@
 		(path "/040da2f0-ea11-4174-9836-a6f3d1871173")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -111045,12 +111897,6 @@
 		(path "/b78d661f-de52-4ec5-b2af-211d6f71cc44")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -111593,6 +112439,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -111653,12 +112510,6 @@
 		(path "/8c4acd8d-1bc1-4b2c-84b2-567fe95c5ced")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -112162,12 +113013,6 @@
 		(path "/667d146f-5da9-45cf-ae47-40b55b5b134f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -112710,6 +113555,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -112769,12 +113625,6 @@
 		(path "/14b9ec97-7297-4712-ac6e-06b644053edc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -113317,6 +114167,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -113377,12 +114238,6 @@
 		(path "/09101b7d-3454-4ac1-b165-9c773112bcdb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -113887,12 +114742,6 @@
 		(path "/ea9b7787-3afc-43a2-8edb-267edd032444")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -114396,12 +115245,6 @@
 		(path "/08d51b97-a52c-4724-9089-64315762ffd7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -114944,6 +115787,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -115003,12 +115857,6 @@
 		(path "/78a44499-b5a9-4720-8e58-51b0744cee53")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -115551,6 +116399,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -115610,12 +116469,6 @@
 		(path "/a712f8a1-32fd-48a0-bb78-cc932e625e29")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -116158,6 +117011,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -116218,12 +117082,6 @@
 		(path "/35d4b6d8-ba68-4ec8-8195-da80c0e0c98f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -116727,12 +117585,6 @@
 		(path "/9d533bae-ed05-4269-9a21-bfd241f21540")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -117275,6 +118127,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -117335,12 +118198,6 @@
 		(path "/afef2f23-e3f7-40b1-90f9-3d932dee87f0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -117844,12 +118701,6 @@
 		(path "/1dad4401-041e-4113-91f9-61d63f29ff18")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -118392,6 +119243,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -118452,12 +119314,6 @@
 		(path "/9629dd86-6ef2-4cff-a313-4b3515fbff09")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -118961,12 +119817,6 @@
 		(path "/57f46d13-d87e-4df1-a875-b91644ee572a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -119509,6 +120359,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -119568,12 +120429,6 @@
 		(path "/2d674280-fddd-476b-b326-4be3435a657f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -120116,6 +120971,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -120175,12 +121041,6 @@
 		(path "/72c2f2a4-179d-4eb1-aba5-43b9e9486edd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -120723,6 +121583,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -120782,12 +121653,6 @@
 		(path "/72bb0aef-6a81-47b4-a500-f5190861fc3a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -121330,6 +122195,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -121390,12 +122266,6 @@
 		(path "/33c49ab4-9fc5-46f4-b68c-33fd045e1377")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -121899,12 +122769,6 @@
 		(path "/0eee8cdb-2a38-4d7a-be20-0801794bc00e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -122447,6 +123311,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -122507,12 +123382,6 @@
 		(path "/54f98667-c92b-4961-907d-bbd57f5cea95")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -123016,12 +123885,6 @@
 		(path "/2736ac51-760f-4354-a30d-ca949665f444")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -123564,6 +124427,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -123623,12 +124497,6 @@
 		(path "/4ee551f7-2b10-4b83-9290-4c4a61cb72cf")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -124171,6 +125039,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:LED_MX_6028R"
 		(layer "B.Cu")
@@ -124231,12 +125110,6 @@
 		(path "/0c992ec9-39cc-460b-ad9b-9cb157117f92")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "1" "4" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -124740,12 +125613,6 @@
 		(path "/0a1ab761-dcee-4946-9db5-4c10cf8c3acf")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -125288,6 +126155,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -125347,12 +126225,6 @@
 		(path "/4b0b138b-e344-4c39-ad0a-855ba0769822")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -125895,6 +126767,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -125954,12 +126837,6 @@
 		(path "/9c8de462-f67a-4922-9979-edca41691025")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -126502,6 +127379,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -126561,12 +127449,6 @@
 		(path "/c6e46d98-1f86-4c2a-9467-bb153648e1ce")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -127109,6 +127991,17 @@
 				(xyz 180 0 0)
 			)
 		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
+			)
+		)
 	)
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "B.Cu")
@@ -127168,12 +128061,6 @@
 		(path "/b4b83365-7234-4503-a344-d340f9da97f3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -127714,6 +128601,17 @@
 			)
 			(rotate
 				(xyz 180 0 0)
+			)
+		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Cherry_MX_Plate.stp"
+			(offset
+				(xyz 0 0 -1.2)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -180 -0 -180)
 			)
 		)
 	)
