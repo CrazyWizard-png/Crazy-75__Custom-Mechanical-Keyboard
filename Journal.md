@@ -1,7 +1,7 @@
 
 # 14 September 2026
 
-**Time spent: 1 h 45 min**
+**Time spent: 2 h**
 
 ### 3D visualization and mechanical validation
 
@@ -15,7 +15,7 @@ Added missing 3D models to the KiCad board so that the physical assembly can be 
 
 Keycap models were also considered but ultimately abandoned. Adding and aligning all of the different keycap sizes would require significant work while providing little additional value for checking the actual PCB.
 
-![Complete-PCB-3D-view](Complete-PCB-3D-view.png)
+![Complete-PCB-3D-view](images/Complete-PCB-3D-view.png)
 
 ### Another useful catch from the 3D Viewer
 
@@ -43,7 +43,11 @@ This means that **PCB mounting holes are not required for the intended plate-gas
 
 This crossection from **siderakb/facade** specifically helped me a lot in understanding gasket-mounted case designs:
 
-![Gasket-mount_crossection](Gasket-mount_crossection.png)
+![Gasket-mount_crossection](images/Gasket-mount_crossection.png)
+
+### Journal fix
+
+I also went through the journal on Github and spotted several images not being found even tho they all loaded in Obsidian, the not-taking app I use for writing this journal. After checking where the images live, I realised that I forgot to add **images/** before the image names. For some reason Obsidian did not care. So another lesson learned, always check the uploads on Github itself.
 
 ### Current state
 
@@ -80,13 +84,13 @@ The viewer revealed that the **hotswap socket footprints were on the wrong side 
 
 This lead to a clearance issue between a hotswap socket pad and its nearby diode. The diode placement was adjusted to provide safer clearance.
 
-![Correct_hot-swap_socket_placement](Correct_hot-swap_socket_placement.png)
+![Correct_hot-swap_socket_placement](images/Correct_hot-swap_socket_placement.png)
 
 The 3D Viewer then revealed a second important mistake: the **SK6812 MINI-E LEDs were also mounted on the wrong side**. Since these are reverse-mount LEDs intended to shine through their PCB opening toward the switch/keycap, they were flipped to the correct side as well.
 
 The diode and capacitor positions around the switches were consequently adjusted again. The top-row diodes received additional manual positioning where necessary.
 
-![Individual-switch-arrangement](Individual-switch-arrangement.png)
+![Individual-switch-arrangement](images/Individual-switch-arrangement.png)
 
 After these corrections, the 3D model finally looks mechanically sensible.
 
@@ -96,11 +100,11 @@ This was an important reminder that a PCB can look perfectly reasonable in the 2
 
 - Routing
 
-![13-09-2026_Finished-component-arrangement](13-09-2026_Finished-component-arrangement.png)
+![13-09-2026_Finished-component-arrangement](images/13-09-2026_Finished-component-arrangement.png)
 
-![PCB-3D-viewer-Front](PCB-3D-viewer-Front.png)
+![PCB-3D-viewer-Front](images/PCB-3D-viewer-Front.png)
 
-![PCB-3D-viewer-Back](PCB-3D-viewer-Back.png)
+![PCB-3D-viewer-Back](images/PCB-3D-viewer-Back.png)
 
 ---
 
@@ -484,7 +488,7 @@ I also added the EC11 rotary encoder to the schematic. It will eventually be use
 
 **Current schematic:**
 
-![Keyboard matrix schematic1](Keyboard-matrix-schematic1.png)
+![Keyboard matrix schematic1](images/Keyboard-matrix-schematic1.png)
 
 
 Fun fact about me: I never listen to music while working because I find it distracting.
