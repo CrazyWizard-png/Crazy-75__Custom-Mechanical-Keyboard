@@ -1,4 +1,11 @@
 
+# 16 September 2026 - Mechanical design research
+
+**Time spent: 1 h 30 min** 
+
+Researched gasket-mount construction, plate thickness and materials, PCBWay additive and subtractive manufacturing processes, manufacturing tolerances, MX switch cutout dimensions, preliminary case dimensions, and the feasibility/cost of a dedicated fit-test coupon. Used the findings to establish initial parameters for the Crazy-75 plate and case.
+
+
 # 14 September 2026
 
 **Time spent: 2 h**
