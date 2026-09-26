@@ -1,4 +1,118 @@
 
+# 26 September 2026 - Finishing the plate + RP2040 board placement rework
+
+**Time spent: 1 h 50 min**
+
+### Finishing the plate
+
+I returned to the plate and added the remaining functional openings.
+
+This took approximately 20 minutes and included:
+
+- clearance cutouts for all four PCB-mounted stabilizers
+- two additional openings for the extra LEDs underneath the Spacebar
+
+Because the stabilizers are attached to the PCB rather than the plate, these openings only need to provide sufficient mechanical clearance around their housings.
+
+![26.09.2026-Plate-1](26.09.2026-Plate-1.png)
+
+### Reconsidering the RP2040 mounting
+
+While beginning to think about the actual case around the completed PCB/plate assembly, I realized that the existing RP2040 mounting arrangement created an awkward USB-C problem.
+
+The controller was previously positioned on top of the PCB and intended to be raised using female socket headers. This would require the USB-C cable to reach underneath the raised controller and through a relatively large opening in the case.
+
+The planned keyboard incline would make this worse because the main PCB, and therefore the raised controller, would also be inclined. The USB-C connector would consequently end up unnecessarily high on the rear of the keyboard.
+
+I looked again at other keyboard designs, particularly **siderakb/facade**, which uses a separate controller/USB daughterboard. This is mechanically elegant because the USB connector does not have to follow the position and angle of the main keyboard PCB. Though in this case, it would require a big redesign of the PCB and the project has been moving slowly lately anyway. 
+
+So rather than adding another PCB to Crazy-75 at this stage, I tried solving the same problem with the existing RP2040 module.
+
+### Moving the controller underneath the PCB
+
+I flipped the **TENSTAR RP2040 Pro Micro 16 MB** module to the underside of the main PCB and moved it much closer to the PCB edge.
+
+The USB-C connector now barely clears the edge of the main PCB, meaning the cable should be able to connect directly behind the rear case wall instead of traveling deep into the construction.
+
+The closest exposed copper around the RP2040 through-hole pads is approximately 0.5 mm from the PCB edge, which is as close as I would like to get.
+
+I checked PCBWay's manufacturing requirements afterwards. Their published standard CNC-routed copper-to-board-edge capability is 0.25 mm, while they recommend at least 0.5 mm between a drilled hole and the board outline. The current geometry therefore appears to clear the bar.
+
+### Updating and validating the mechanical assembly
+
+Moving the controller changed the physical envelope of the PCB, so I updated the plate design around its new position, simultaneously realising that I had forgotten to add a big cutout to the plate when the controller was still ment to go on top of the PCB.
+
+I then inspected the complete PCB, switches, stabilizers, encoder and plate assembly in Fusion using the **cross-section analysis tool**.
+
+![26.09.2026_CAD_cross-section](26.09.2026_CAD_cross-section.png)
+
+This made it possible to inspect the assembly internally rather than relying only on exterior views. I checked the changed controller area and the rest of the plate for obvious physical collisions.
+
+No major collision was found in the current arrangement.
+
+![26.09.2026_plate-2](26.09.2026_plate-2.png)
+
+### Current state
+
+The Crazy-75 plate is now functionally complete and has been checked against the complete PCB assembly.
+
+The RP2040 arrangement is also considerably cleaner mechanically than before, since the controller is closer to the edge making the USB-C port more accessible.
+
+The next mechanical task is designing the actual gasket-mounted case around the completed plate and PCB assembly.
+
+---
+
+
+# 24 September 2026 - Designing the switch plate
+
+**Time spent: 1 h 30 min**
+
+### Starting the plate design
+
+Today I started turning the mechanical research from the previous session into the first actual part of the Crazy-75 case assembly.
+
+I exported the PCB assembly .step model and the exact switch positions from KiCad into a CSV file and used them to generate the switch openings in Fusion. This allowed the plate to be based directly on the PCB layout instead of manually recreating the keyboard geometry.
+
+The plate currently uses **14 × 14 mm MX switch cutouts** and a nominal thickness of **1.5 mm**.
+
+### Gasket mounting
+
+I added eight gasket mounting ears around the plate:
+
+- 3 along the front
+- 3 along the rear
+- 1 on the left
+- 1 on the right
+
+After researching commercially available gasket material, I decided not to make the keyboard dependent on proprietary AEBoards gasket strips. Instead, the current plan is to use generic **5 mm wide PORON strips**, which are considerably easier and cheaper to source.
+
+The gasket ears were rounded rather than leaving sharp rectangular corners.
+
+### Mechanical openings
+
+I also added the opening for the rotary encoder.
+
+The plate is not completely finished yet. It is still missing clearance around the four PCB-mounted stabilizers and openings for the two additional LEDs underneath the Spacebar.
+
+The stabilizer product listing was somewhat contradictory about whether the stabilizers were plate-mounted or PCB-mounted. Looking at the actual product photographs confirmed that they are **PCB-mounted screw-in stabilizers**, matching the stabilizer footprints already used in the PCB design.
+
+This means the plate does not locate or hold the stabilizers itself; it only needs enough clearance for the stabilizer housings to pass through.
+
+![24.09.2026 Plate](24.09.2026-Plate.png)
+
+### Current state
+
+The first functional Crazy-75 plate now exists in CAD and aligns with the actual PCB/switch layout.
+
+The remaining work before considering the plate complete is:
+
+- add stabilizer clearance cutouts
+- add the two additional Spacebar LED openings
+- perform a final mechanical clearance check against the complete PCB assembly
+
+---
+
+
 # 16 September 2026 - Mechanical design research
 
 **Time spent: 1 h 30 min** 
