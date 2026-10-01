@@ -1,4 +1,65 @@
 
+
+# 1 October 2026 - Starting the top case
+
+**Time spent: 2 h**
+
+### Designing the first case part
+
+Today I started designing the actual Crazy-75 case around the plate and PCB assembly.
+
+I decided to split the case into a flat top section and a bottom section which will later create the keyboard's typing angle. This allows the top case to be designed directly around the existing flat plate while leaving the more complicated inclined geometry for the bottom case.
+
+Rather than creating individual openings around every switch, I used one large opening around the main key area. A separate area was kept around the rotary encoder for aesthetics.
+
+![Top case](images/Top_case_top-down.png)
+
+### Plate clearance
+
+I based the internal shape of the top case directly on the existing plate geometry.
+
+I left approximately **0.5 mm nominal clearance between the plate and the rigid top case** around its perimeter. This is important because the plate should eventually be supported through the PORON gaskets rather than resting directly against the case.
+
+The irregular sections of the plate, including the gasket mounting ears and the area around the rotary encoder, were accounted for when creating the opening.
+
+![Top case bottom](images/Top_case_bottom.png)
+
+### Gasket mounting
+
+The top case was also designed around the eight gasket locations already present on the plate:
+
+- 3 along the front
+- 3 along the rear
+- 1 on the left
+- 1 on the right
+
+The current plan is to use **45 × 5 × 2 mm PORON gasket strips** at these locations.
+
+The plate and top case geometry now leave the necessary space around these gasket ears so that the plate can eventually be suspended between PORON rather than making rigid contact with the case.
+
+### Checking the assembly
+
+I placed the new top-case geometry together with the existing plate, switches, stabilizers, encoder and PCB assembly in Fusion and visually checked their alignment.
+
+The large opening exposes the switches while the top case surrounds the complete assembly and follows the plate geometry without touching it.
+
+![Top case assembly](images/Top_case_assembly.png)
+
+### Current state
+
+The first functional version of the **top half of the Crazy-75 case** now exists.
+
+The bottom case will need to account for:
+
+- the lower gasket supports
+- PCB and component clearance
+- the RP2040 and USB-C connector
+- case screws
+- the keyboard's typing angle
+
+---
+
+
 # 26 September 2026 - Finishing the plate + RP2040 board placement rework
 
 **Time spent: 1 h 50 min**
