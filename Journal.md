@@ -1,4 +1,95 @@
 
+# 9 October 2026 - Finishing the functional case design
+
+**Time spent: 1 h 30 min**
+
+### Finishing the case mounting system
+
+Today I completed the remaining functional details of the Crazy-75 enclosure.
+
+I added the mounting holes for the screws connecting the top and bottom case halves. The design uses eight screw positions, with M3 heat-set inserts planned for the top case. These will allow the case to be opened repeatedly without wearing out threads in the printed plastic.
+
+I also added six locations for adhesive rubber feet on the underside of the case, arranged in two rows of three to provide stable support across the keyboard.
+
+### More Fusion problems
+
+Fusion caused further problems today. When attempting to launch it, I was presented with several error messages, and the application would not start properly.
+
+Restarting the computer did not resolve the issue, and Fusion continued behaving as though parts of the program were still running.
+
+I eventually had to reinstall Fusion to get it working again.
+
+This added more troubleshooting to a project that has already experienced several CAD software problems.
+
+### Current state
+
+The **functional case design is now complete**, including:
+
+- Two-piece enclosure with a 5° typing angle
+    
+- Openings for the switches and rotary encoder
+    
+- Gasket mounting geometry
+    
+- Clearance for the PCB and its components
+    
+- USB-C access
+    
+- Eight case screw positions
+    
+- Six rubber feet locations
+
+I am still waiting for PCBWay's engineering team to recommend suitable dimensional compensation for the 14 × 14 mm switch openings in the SLS PA12 plate.
+
+I have not decided whether to add further aesthetic details to the case. For now, I am satisfied with the functional geometry and would rather continue with the electronics than spend additional time changing its appearance without a clear goal.
+
+**Next step:** Begin routing the PCB in KiCad, followed by electrical and manufacturing checks.
+
+---
+
+
+# 2 October 2026 - Designing the bottom case
+
+**Time spent: 1 h**
+
+### Starting the bottom enclosure
+
+Today I designed the first functional version of the bottom half of the Crazy-75 case.
+
+Unlike the flat top case, the bottom enclosure is wedge-shaped to create the keyboard's typing angle. I used a **5° typing angle**, making the enclosure progressively taller towards the rear while keeping the top and plate assembly aligned.
+
+I built the bottom around the existing top-case and PCB assembly rather than designing it independently. This made it possible to check the actual space required underneath the PCB and its components.
+
+![Bottom case side view](images/Case-bottom-side.png)
+
+### Internal clearance and USB-C
+
+The enclosure was sized around the lowest components underneath the PCB while leaving additional clearance between the electronics and the case floor.
+
+I also added the opening for the RP2040's USB-C connector. Moving the controller to the underside and edge of the PCB earlier made this considerably simpler, since the connector can now be accessed directly through the rear of the enclosure.
+
+![USB-C opening](images/Case_bottom-USB-C.png)
+
+### Fusion problems
+
+A significant part of today's work was spent dealing with Fusion rather than making visible CAD progress.
+
+Some existing components and geometry would not project correctly into new sketches, which made referencing the already completed parts more difficult than expected.
+
+I also had problems with Fusion's cloud/project memory not synchronizing correctly. This caused additional time to be spent checking the model and working around geometry which Fusion was not referencing as expected.
+
+Despite these problems, I was able to finish the basic bottom-case geometry.
+
+### Current state
+
+The Crazy-75 now has both a top and bottom enclosure in CAD.
+
+The bottom case provides the **5° typing angle**, encloses the PCB and underside components, and provides access to the USB-C connector.
+
+The remaining functional case work is mainly the fastening system which will hold the top and bottom halves together. After that, the case should be sufficiently complete to move back to the PCB and begin routing it.
+
+---
+
 
 # 1 October 2026 - Starting the top case
 

@@ -10,8 +10,6 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
-		(9 "F.Adhes" user "F.Adhesive")
-		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
 		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
@@ -20,20 +18,53 @@
 		(3 "B.Mask" user)
 		(17 "Dwgs.User" user "User.Drawings")
 		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
-		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -50,6 +81,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -153,6 +185,12 @@
 		(path "/44edc923-e8ab-4935-b1ab-a061a7d1218c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -305,6 +343,12 @@
 		(path "/a73cf6e2-fc3d-429a-9302-64778110b1ed")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -457,6 +501,12 @@
 		(path "/639e443c-fad7-4379-baca-29194131dbb7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -635,6 +685,12 @@
 		(path "/5d381a04-3011-473a-95eb-7f23a8f82762")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -905,6 +961,12 @@
 		(path "/cc13da2b-679a-46d4-8678-d63bc6c23040")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1083,6 +1145,12 @@
 		(path "/433bd47b-2d86-48ed-8375-b3754ef1dc60")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1353,6 +1421,12 @@
 		(path "/0134afb6-58ae-464c-9912-8377e4f2f4a6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1505,6 +1579,12 @@
 		(path "/66977bda-038d-4a72-9acd-38d256a0825b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1657,6 +1737,12 @@
 		(path "/0f01df64-e480-482f-892e-2a0d08052753")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1809,6 +1895,12 @@
 		(path "/e06bc953-d77e-4aa0-8413-835b6aa23b4c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1987,6 +2079,12 @@
 		(path "/c1c1d70d-d34c-472a-bbab-5cb2f213bed3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2257,6 +2355,12 @@
 		(path "/20e7e918-5af1-45b4-8808-0cb96417e7cb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2409,6 +2513,12 @@
 		(path "/8cd3ad99-8d14-4838-b12b-a742fd83c923")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2561,6 +2671,12 @@
 		(path "/63e75418-f1f1-4428-99ae-2cc7b11b1174")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2713,6 +2829,12 @@
 		(path "/bc23d19f-09db-4894-be9a-c3d2649f1a5b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2891,6 +3013,12 @@
 		(path "/0900cebf-9a1a-4d1a-a9eb-f5e4b338624e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3161,6 +3289,12 @@
 		(path "/076b7a74-633d-45da-8bfc-7c889fed0800")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3339,6 +3473,12 @@
 		(path "/f5ab845d-c260-4efe-978e-fab443577e69")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3609,6 +3749,12 @@
 		(path "/6502f5c9-9672-4f9f-b71b-5a1e7957a5fb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3787,6 +3933,12 @@
 		(path "/f5b3db5a-c188-4b68-aa1e-d8c16e5c7a9b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4083,6 +4235,12 @@
 		(path "/5aef5c55-a3e6-46a7-ae6b-76143776be86")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4379,6 +4537,12 @@
 		(path "/167d7aae-aea8-4f5d-9a0c-48633fa24a52")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4649,6 +4813,12 @@
 		(path "/1eb328be-55b6-490e-ba77-b4cd4ba5d5b3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4827,6 +4997,12 @@
 		(path "/3e49e9e2-019a-4dc7-91ff-5717e5d58b04")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5097,6 +5273,12 @@
 		(path "/f9f1464a-595c-47ab-80e2-ad61ef6e5ad2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5275,6 +5457,12 @@
 		(path "/9a2b0c4e-f055-46d8-91b1-778c202bb002")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5545,6 +5733,12 @@
 		(path "/8229baed-99f5-4e7f-a664-cc7fc10ce2a7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5697,6 +5891,12 @@
 		(path "/17d4c7e6-a27e-43c3-8f31-43d52b1b24da")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5875,6 +6075,12 @@
 		(path "/e90e2941-d17c-4022-8fd2-7ab2eb91cdcd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6171,6 +6377,12 @@
 		(path "/be89c585-7755-453a-a6b1-4bff9740d1f4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6467,6 +6679,12 @@
 		(path "/c11a540c-b63e-484c-a5f7-cab0c39c8900")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6763,6 +6981,12 @@
 		(path "/f41f0c97-781d-469e-93d9-1dd2c9ddd9fb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7033,6 +7257,12 @@
 		(path "/e9a0e379-036d-4d5e-8e05-75ab1f139d8b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7185,6 +7415,12 @@
 		(path "/bcfdfdd1-1cb8-4ce6-b266-1061abf551de")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7337,6 +7573,12 @@
 		(path "/7ba2e377-065a-4030-bf1a-d61bfaba3c91")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7489,6 +7731,12 @@
 		(path "/8c0aa202-3cdd-4c69-898a-d3bf0e75a86a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7641,6 +7889,12 @@
 		(path "/f352f048-1b9c-4b47-812a-3645d302461a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7819,6 +8073,12 @@
 		(path "/c59854c6-a2f9-4742-bfae-8610320c3c7b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8089,6 +8349,12 @@
 		(path "/ddfb8d35-2e01-4d65-9fbe-efdf0308bafb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8228,6 +8494,12 @@
 		(path "/09030447-6803-4fa0-b57f-05f75204892a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8669,6 +8941,12 @@
 		(path "/5a9d410c-eb5a-47f9-8317-dd5e03542ab8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8939,6 +9217,12 @@
 		(path "/16eb79cc-c295-43e0-b883-c7f9b48f42d9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9091,6 +9375,12 @@
 		(path "/4ffea6ff-aef7-4512-b4ae-df62e7376fa4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9243,6 +9533,12 @@
 		(path "/fe5f8f6c-9ace-4db6-be8b-e233644d7c79")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9421,6 +9717,12 @@
 		(path "/a06455bf-0d6c-4aa4-a5b1-ab7346566664")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9691,6 +9993,12 @@
 		(path "/826d5335-4149-4193-8a5c-0b0dbaaafab9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9869,6 +10177,12 @@
 		(path "/ad86fe89-aa4b-405d-b1c7-35a602ba7449")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10165,6 +10479,12 @@
 		(path "/d56f5dd6-0cbc-4034-baaa-fdfb27d4f1b4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10461,6 +10781,12 @@
 		(path "/af52f0bb-e07b-4c1e-b63b-203e440fca8b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10757,6 +11083,12 @@
 		(path "/3710a714-9d72-4756-9fe5-cfff69be5322")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11027,6 +11359,12 @@
 		(path "/ae8562a7-14b5-4f4e-ad93-874649f3e814")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11205,6 +11543,12 @@
 		(path "/efe1e24b-ee5a-444c-9b3e-691513d0b1df")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11501,6 +11845,12 @@
 		(path "/20ad0bf9-b04b-4b51-8fbf-48c7c9732c06")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11797,6 +12147,12 @@
 		(path "/2de616a1-9199-455c-bb5c-43d683635f1b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12067,6 +12423,12 @@
 		(path "/cbdc0612-2923-4cd7-8656-66c65d6a8bb2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12245,6 +12607,12 @@
 		(path "/648bf787-f750-425d-a247-457d13f86ea6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12541,6 +12909,12 @@
 		(path "/c71ca228-3325-4ffa-b969-e6fc45e88477")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12811,6 +13185,12 @@
 		(path "/7325e413-b4e7-439e-8003-2ac01a906df1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12989,6 +13369,12 @@
 		(path "/b43f9b55-bb32-4499-8cab-51674050c847")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13285,6 +13671,12 @@
 		(path "/9e089c18-6dc9-4471-917c-e31a3f11eab9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13555,6 +13947,12 @@
 		(path "/34e868fb-c5cb-4783-b827-ba77b9328c4b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13707,6 +14105,12 @@
 		(path "/d0737538-9f05-4e0b-8b90-90de65f54a69")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13885,6 +14289,12 @@
 		(path "/34d55247-0cae-4679-8a90-d906b9e85850")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14181,6 +14591,12 @@
 		(path "/b0664515-0050-45c9-ad4b-4ca10a153a58")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14477,6 +14893,12 @@
 		(path "/6cb7bfcd-7c5a-4e63-ada8-1e401fc4b018")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14747,6 +15169,12 @@
 		(path "/8d043e6c-6c39-47f6-9509-53477f860463")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14899,6 +15327,12 @@
 		(path "/84c3557d-2115-4f2e-9cd3-acb86d4ec762")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15077,6 +15511,12 @@
 		(path "/b8914f0e-d248-4888-8265-15a06f6e6f02")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15347,6 +15787,12 @@
 		(path "/0c7d4ab3-89a3-496b-bb25-891fe271a7cb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "5" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15740,6 +16186,12 @@
 		(path "/0b32e357-741b-4390-a308-58b95d1cc437")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15892,6 +16344,12 @@
 		(path "/576b1cce-7759-43e6-9253-56ede96f9fbe")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16070,6 +16528,12 @@
 		(path "/4f49643d-c72b-45fa-a9de-0264e4eee18d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16366,6 +16830,12 @@
 		(path "/5c5c562a-941a-4b5c-a662-07a5df920b3b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16636,6 +17106,12 @@
 		(path "/c962b069-4486-4c81-8649-532deeaa2ee2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16788,6 +17264,12 @@
 		(path "/fdd6802e-ad57-4537-a9f4-893da6a084af")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16940,6 +17422,12 @@
 		(path "/745318a8-af92-4b8a-964e-db3090458d2b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17118,6 +17606,12 @@
 		(path "/c2d13d8a-62b8-4211-8874-b59e95ba0205")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17414,6 +17908,12 @@
 		(path "/4a3fe9b5-70bb-46d9-a869-ca9d59c25167")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17684,6 +18184,12 @@
 		(path "/a1524aa1-4aa1-4a48-9553-8eb86455818a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17862,6 +18368,12 @@
 		(path "/d825dbbf-2b64-491c-a252-173eea41da93")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18158,6 +18670,12 @@
 		(path "/205e7b56-95e9-4755-b46f-33ffbf27cff2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18428,6 +18946,12 @@
 		(path "/b732b278-f09d-493a-a3d9-b3896c7b18e1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18606,6 +19130,12 @@
 		(path "/7833b7ca-3cc4-415a-9d67-6a8f917ba83b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18902,6 +19432,12 @@
 		(path "/b43d36a1-2d0c-4cbf-b6bb-2c9867245fed")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19159,6 +19695,12 @@
 		(path "/a93bfcab-057d-4855-84f4-61f29529306d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19574,6 +20116,12 @@
 		(path "/6676d09b-5eab-426c-87d4-36da5a080bf8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19752,6 +20300,12 @@
 		(path "/29ec14a9-5a5b-4f87-a049-452430c754d6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20048,6 +20602,12 @@
 		(path "/2913325c-5333-4bfb-9542-ad3a9a249072")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20344,6 +20904,12 @@
 		(path "/2f8d90db-bd42-4ed6-92a7-71f26ee90d67")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20614,6 +21180,12 @@
 		(path "/658cec32-413b-474d-b6fb-6988498714fb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20766,6 +21338,12 @@
 		(path "/4c45cabf-87ad-4b14-bc3f-e38d4661f20d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20918,6 +21496,12 @@
 		(path "/4c0d47ac-f00a-4a92-b871-185306364c92")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21070,6 +21654,12 @@
 		(path "/a0846bd1-4725-4d34-8873-7cf80a18d57b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21248,6 +21838,12 @@
 		(path "/e943852e-37d3-4ede-a04f-f6aa6344d337")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21544,6 +22140,12 @@
 		(path "/3b17e57e-308c-40a1-8311-73d664fdfa09")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21814,6 +22416,12 @@
 		(path "/ade52130-65e3-4269-bfc9-91172adcec29")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21992,6 +22600,12 @@
 		(path "/e7409657-6dee-410d-9b3f-f9d245353e6f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22262,6 +22876,12 @@
 		(path "/711a210e-9e6c-4f31-bb04-23c630d1c5d3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22401,6 +23021,12 @@
 		(path "/eed2b121-a725-4aac-b521-1001f1381965")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22816,6 +23442,12 @@
 		(path "/9286e2d2-214d-4e7a-8b71-c52977dff36a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22994,6 +23626,12 @@
 		(path "/7e045551-ab2a-4fc6-b09f-fc3e8f6549bd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23264,6 +23902,12 @@
 		(path "/c32b7298-24fd-4b5c-84fd-212007b82dc9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23475,6 +24119,12 @@
 		(path "/038b000f-3858-4011-a08a-49d3c9f07eac")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23745,6 +24395,12 @@
 		(path "/e8b24d7e-8b6c-467a-bd8d-23a2ee0fb5d1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23897,6 +24553,12 @@
 		(path "/3b4e9f04-1534-44c4-8407-1d4bec6a39b7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24075,6 +24737,12 @@
 		(path "/2cab8e17-c619-4da3-832a-0647d09a56a5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24345,6 +25013,12 @@
 		(path "/f960aae0-f470-44c0-a5a3-530774786141")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24497,6 +25171,12 @@
 		(path "/b6f69a85-fa99-4f14-915c-d0e32ed4b83d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24675,6 +25355,12 @@
 		(path "/0071d78a-dbf1-49ab-90b1-8c55b34b81cd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24971,6 +25657,12 @@
 		(path "/9a1b21f7-a246-4947-8a63-5af2caa0534b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25267,6 +25959,12 @@
 		(path "/1fc694c0-8be5-4cfb-b8f6-0f6c27979154")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25537,6 +26235,12 @@
 		(path "/a5d8f5cd-73ca-4572-989d-b701ac0b259b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25715,6 +26419,12 @@
 		(path "/fe714f09-db6d-4af2-bb26-ce43f2aafd7c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25985,6 +26695,12 @@
 		(path "/e63ddf2b-8128-477b-9e56-35fd22876b81")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26137,6 +26853,12 @@
 		(path "/609a89b3-dde1-47f9-b7b5-5664f5dbbb94")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26289,6 +27011,12 @@
 		(path "/4a9507e5-a8a7-432f-9911-546f0618402c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26467,6 +27195,12 @@
 		(path "/8176a382-0c13-4c4e-a8be-c78de7589b99")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26737,6 +27471,12 @@
 		(path "/4cfceff3-ef86-4e75-b107-d67b26f2c85e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26915,6 +27655,12 @@
 		(path "/151b9248-2b43-45e2-851d-c2555fd2490d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27211,6 +27957,12 @@
 		(path "/3bb739df-d557-4e81-9a3b-9e844618f517")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27481,6 +28233,12 @@
 		(path "/fe1af696-4220-44d2-a81e-75cdf87cc734")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27659,6 +28417,12 @@
 		(path "/f08dc430-a84a-4a83-9c0f-0b6be4cc6af3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27955,6 +28719,12 @@
 		(path "/a3586df7-8468-4641-b876-6e71f38d1483")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28225,6 +28995,12 @@
 		(path "/87e639af-4055-4334-bb72-b7da14db3c51")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28403,6 +29179,12 @@
 		(path "/1919cf5d-bcab-41f9-abd4-915e1355135f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28699,6 +29481,12 @@
 		(path "/ebb3294e-abff-4b55-ba25-690c2d37b884")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28969,6 +29757,12 @@
 		(path "/f90975f1-a696-409a-8e12-c0e1d416fe70")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29121,6 +29915,12 @@
 		(path "/e274863b-92de-47de-aad5-a5b6b9feed60")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29273,6 +30073,12 @@
 		(path "/afaea684-c2d1-41d5-9dcd-d9f03397e7fd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29425,6 +30231,12 @@
 		(path "/e8174e45-81ac-43b0-9374-12c70f74be28")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29577,6 +30389,12 @@
 		(path "/7a44c101-0353-44d4-9775-7adba5128550")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29755,6 +30573,12 @@
 		(path "/797361bf-f65a-4a96-8430-1c993aad0847")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30051,6 +30875,12 @@
 		(path "/5d9c23eb-091d-4322-ac88-878cd5f61683")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30321,6 +31151,12 @@
 		(path "/4157dc57-8415-4c9b-acda-8028febb7066")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30473,6 +31309,12 @@
 		(path "/659d8444-cc07-4a38-b05a-c641877713f3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30625,6 +31467,12 @@
 		(path "/29df3c20-a657-4bd1-911c-4c2a7a596a8d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30803,6 +31651,12 @@
 		(path "/ac727b76-59d6-4bf6-a934-b4b6a42f269f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31099,6 +31953,12 @@
 		(path "/7c1b0b04-b470-445f-99f8-a708a59b6e79")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31369,6 +32229,12 @@
 		(path "/55bec002-d096-4593-9f26-7b5639e8f777")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31547,6 +32413,12 @@
 		(path "/36dc5724-87d0-43e1-b188-32185f87107b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31817,6 +32689,12 @@
 		(path "/eeedb50a-f63d-42aa-9260-b89a37d8345f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -31956,6 +32834,12 @@
 		(path "/71217ac0-198c-4d68-bfc7-f8d74b4b173a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32397,6 +33281,12 @@
 		(path "/0f7045a6-87e9-4eac-91ef-a8ee387d93a8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32693,6 +33583,12 @@
 		(path "/4e944aaa-5316-4981-a02d-6ca12faad626")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32963,6 +33859,12 @@
 		(path "/9367786c-b4b2-4a33-b86d-4f95721736b0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33141,6 +34043,12 @@
 		(path "/37d65f23-515c-45c9-86cc-fd339cbb8697")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33411,6 +34319,12 @@
 		(path "/e43fc52a-225d-47ab-8720-a5d358738b7e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33563,6 +34477,12 @@
 		(path "/1f32a8b4-2635-404a-b56d-6d442b0f3438")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33715,6 +34635,12 @@
 		(path "/0b9d610b-c067-4427-9754-957919ff087a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33893,6 +34819,12 @@
 		(path "/ec174383-f5c4-4838-9e41-8ca8cc1f01d5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34189,6 +35121,12 @@
 		(path "/51999951-1a2b-4e9e-aaa1-f95f6b94c52e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34485,6 +35423,12 @@
 		(path "/3962f67c-1a1e-4e01-80fc-29623bb02efa")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34755,6 +35699,12 @@
 		(path "/836c44a5-8743-48b8-8b86-2e70f68a28f2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -34933,6 +35883,12 @@
 		(path "/10964c9e-f0bb-41d8-a4a7-fc1a938e1193")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35203,6 +36159,12 @@
 		(path "/0372d655-fc48-4afa-b7d0-91b433bc4f25")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35381,6 +36343,12 @@
 		(path "/28bd0bea-b711-4640-af36-a4c7c8d018ef")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35677,6 +36645,12 @@
 		(path "/e643ee36-928e-44b8-8d96-154b2a5ad107")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -35947,6 +36921,12 @@
 		(path "/a427fb06-14aa-4b18-902b-6525d03124fd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36099,6 +37079,12 @@
 		(path "/79e062d2-a944-4c1d-9aed-4857d5b2528e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36243,6 +37229,12 @@
 		(path "/4445c09e-f0ca-4285-9806-9daefa040783")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "A" "C" "B" "S1" "S2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36668,6 +37660,12 @@
 		(path "/7f865285-5859-4c0b-b73b-7992ea38e43a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36820,6 +37818,12 @@
 		(path "/d170c2f7-43be-42cb-9336-adbd0c4346e6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -36998,6 +38002,12 @@
 		(path "/a1e62d7b-4393-4cc9-927f-4824f7d34198")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37294,6 +38304,12 @@
 		(path "/23489731-f145-41bd-a7bb-25f686e77346")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37590,6 +38606,12 @@
 		(path "/52aa3a8c-5f3e-4171-b86c-7cc9b2acc43c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37860,6 +38882,12 @@
 		(path "/24614dfa-f8cb-4727-a199-683ff9216131")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38038,6 +39066,12 @@
 		(path "/0cafc390-9a77-4846-928e-6f5c0c400058")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38334,6 +39368,12 @@
 		(path "/2144b2a5-7471-40a0-96cb-a9ac9c1884a5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38630,6 +39670,12 @@
 		(path "/ff45b5f8-d80c-4c52-bea2-7856d67a2228")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -38892,6 +39938,12 @@
 		(path "/c575d316-41c5-405d-a95f-a7562189388f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -39504,6 +40556,12 @@
 		(path "/46d9d8d6-079c-4c91-b4b1-86b4b8bb4262")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40116,6 +41174,12 @@
 		(path "/f653f176-d6ce-4673-a48f-92393f4822df")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -40728,6 +41792,12 @@
 		(path "/691ae618-04a2-4c37-bf3c-57ddf6b2f5c9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -41341,6 +42411,12 @@
 		(path "/64db8a2b-692b-488e-b10d-ed0adb150eb9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -41845,6 +42921,12 @@
 		(path "/9ca9908a-3739-4089-bd8f-86a04bcb1439")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -42348,6 +43430,12 @@
 		(path "/fe38c222-2f4a-4e83-94f9-9f23fcb2c3d9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -42961,6 +44049,12 @@
 		(path "/bc9c8f17-999e-4eca-8009-c905c8586b5b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -43464,6 +44558,12 @@
 		(path "/31fc98af-d46f-4106-ab4a-9e7a0507a671")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44076,6 +45176,12 @@
 		(path "/73b7e402-ccac-42ed-850a-da0d9388023d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44689,6 +45795,12 @@
 		(path "/fe26c3db-8da1-40c5-bf80-b95ac057accd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -45193,6 +46305,12 @@
 		(path "/e01ed5dd-01b6-4f16-abad-6fa661ee3c63")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -45696,6 +46814,12 @@
 		(path "/cf9188bf-dca8-415a-baac-8be6121cc78d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -46309,6 +47433,12 @@
 		(path "/8940ea32-4817-4c21-b379-7e84a1b6ba17")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -46812,6 +47942,12 @@
 		(path "/547a338e-e923-467b-a149-c2bde23a70f4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -47424,6 +48560,12 @@
 		(path "/402fca5d-7b61-414c-bee2-80213c6e7e24")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -48037,6 +49179,12 @@
 		(path "/98509f94-946d-42bf-ae71-bcb618e638aa")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -48541,6 +49689,12 @@
 		(path "/a5dd8956-002c-478c-b9f7-985a38c0e0b2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -49045,6 +50199,12 @@
 		(path "/22601293-ae7b-4687-8a2c-2947204f54cd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -49548,6 +50708,12 @@
 		(path "/417c9666-2d9e-48b5-8d08-4d92fad4552a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -50161,6 +51327,12 @@
 		(path "/bd3759b9-a35c-40a7-be91-50f667f886ad")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -50665,6 +51837,12 @@
 		(path "/20e3d3b4-48fa-4306-b0e3-090f9ccb8c4b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -51169,6 +52347,12 @@
 		(path "/b07c100e-8571-4b4f-83bd-0933e8371312")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -51672,6 +52856,12 @@
 		(path "/7e9238bb-9798-4fb5-b4ae-fbc40a6a0aea")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -52285,6 +53475,12 @@
 		(path "/ca6f89c7-395c-4d20-b9c8-fe371adba579")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -52788,6 +53984,12 @@
 		(path "/1e951653-b748-4cf9-8044-e3719e9aa3d7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -53401,6 +54603,12 @@
 		(path "/4c44679d-aedf-4c2f-bd17-60a87fdb8ddc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -53905,6 +55113,12 @@
 		(path "/c98eb386-28e2-4e8a-9aae-0c1f88978578")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -54408,6 +55622,12 @@
 		(path "/67ec5dfe-7d8d-4211-b80e-fcd0686b8659")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -55021,6 +56241,12 @@
 		(path "/8e02df4a-7864-4beb-abcd-f7fa1d1e2dc0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -55525,6 +56751,12 @@
 		(path "/d180995d-23cb-4ce0-b7d7-49485a565c47")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -56029,6 +57261,12 @@
 		(path "/e237e97e-4e36-44bc-bf43-539cf9df1689")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -56532,6 +57770,12 @@
 		(path "/1c45129b-9059-4e49-8f9d-914b52cbced2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -57145,6 +58389,12 @@
 		(path "/16d7e7e9-4df9-4b5a-9b23-83ce0dbd81e6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -57648,6 +58898,12 @@
 		(path "/05fca85a-11ea-4754-818d-c04576750a25")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58260,6 +59516,12 @@
 		(path "/8f308465-2fa2-4a5b-81e8-6e33e8a84f55")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -58873,6 +60135,12 @@
 		(path "/0061c74c-488f-4b77-8210-829950b37513")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -59376,6 +60644,12 @@
 		(path "/fcfe315c-d2c5-424d-b2c1-aaf82acc91d1")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -59989,6 +61263,12 @@
 		(path "/4e91b7e7-2a1f-4ef3-aae3-2284bdff715f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -60493,6 +61773,12 @@
 		(path "/7bbd89d1-b965-4790-8438-010bc712f451")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -60997,6 +62283,12 @@
 		(path "/e08ca2eb-9304-488b-8fc2-f39cb602c8cc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -61501,6 +62793,12 @@
 		(path "/483e4c00-d6b9-415f-a9ad-57ed5a37cbc4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -62004,6 +63302,12 @@
 		(path "/0cea65d4-9e88-4a9f-82d5-0ebd72ecd375")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -62616,6 +63920,12 @@
 		(path "/a376d44c-ec15-445b-8c40-74e64bc49062")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63228,6 +64538,12 @@
 		(path "/d3a9ebef-452d-4c82-a6e8-c8f9e488c6f6")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -63840,6 +65156,12 @@
 		(path "/af6d3098-1167-4d02-83f9-1b1af2f0a12a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -64452,6 +65774,12 @@
 		(path "/3bef2788-e71e-446e-a6ba-2d790e325dbc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -65065,6 +66393,12 @@
 		(path "/4212a03d-a98e-46e1-bdb8-830e37d4ecd0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -65569,6 +66903,12 @@
 		(path "/1494ddbe-c56b-451c-a611-62b3c034de0f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -66072,6 +67412,12 @@
 		(path "/fa1933e9-20ed-413c-b180-cc70edce0d05")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -66685,6 +68031,12 @@
 		(path "/9241df06-a214-4202-b1c8-6a67ab11d18d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -67188,6 +68540,12 @@
 		(path "/7a8b0564-247e-4c7e-8abb-d34816624fc3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -67801,6 +69159,12 @@
 		(path "/5a315ae7-2b8b-4d31-9868-1b2682741256")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -68304,6 +69668,12 @@
 		(path "/47471b2e-1c0b-403d-a67c-9d7757131426")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -68916,6 +70286,12 @@
 		(path "/2c467f38-af4d-48a0-bd3c-cbd9f8ef101e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -69529,6 +70905,12 @@
 		(path "/4fe19b77-2870-4cbe-963d-264ee6d34197")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -70032,6 +71414,12 @@
 		(path "/2642ef35-368e-496a-95b4-dcc0ba7945ac")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -70644,6 +72032,12 @@
 		(path "/307a267c-9ee3-40f5-bc82-634c4a4b5977")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -71257,6 +72651,12 @@
 		(path "/db5a8bb9-f62d-4ac6-a31b-98e2470b3718")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -71760,6 +73160,12 @@
 		(path "/8ff6d9e7-b8a7-4698-9241-3c6717bd24f9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -72373,6 +73779,12 @@
 		(path "/a665808d-a961-410a-a5d2-dd47e905def8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -72876,6 +74288,12 @@
 		(path "/72caef8c-12e4-44e6-a847-ff579cb16818")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -73489,6 +74907,12 @@
 		(path "/4e068e4c-ded5-472c-b02b-a018e2ad38ac")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -73993,6 +75417,12 @@
 		(path "/a2c59d27-da8a-4f1f-9ceb-952c4b23fcda")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -74497,6 +75927,12 @@
 		(path "/d99205c7-e8a6-430d-8cdc-6dba43827afc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -75001,6 +76437,12 @@
 		(path "/a63f11ca-9818-4f06-accf-4edafd9770ae")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -75505,6 +76947,12 @@
 		(path "/734d50f6-3a64-45cb-9aae-3887731b942b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -76009,6 +77457,12 @@
 		(path "/c99432c3-da4e-4e1f-ae66-4d12d31bfd71")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -76513,6 +77967,12 @@
 		(path "/49edb6b6-22b6-4ccb-b5a1-15ca83416298")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -77017,6 +78477,12 @@
 		(path "/ce0a42f4-abb7-40e8-b087-fe602af1d303")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -77521,6 +78987,12 @@
 		(path "/63b141d2-70bc-41f4-a533-918a4825a233")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -78025,6 +79497,12 @@
 		(path "/ef99c10b-9a73-40fd-81c4-33923664586c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -78528,6 +80006,12 @@
 		(path "/29f3939a-d7c0-4695-9af2-a43fe81b8846")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79140,6 +80624,12 @@
 		(path "/8a0649d9-52dd-4b83-a67c-636e885563e5")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -79753,6 +81243,12 @@
 		(path "/bbc2f15f-dcd1-4e8f-9b96-a33996e31581")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -80256,6 +81752,12 @@
 		(path "/f9d9a951-8e64-40f9-98f5-b51a51b97b9d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -80869,6 +82371,12 @@
 		(path "/6d410f7b-8446-4271-a53b-7774c1c3b85f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -81373,6 +82881,12 @@
 		(path "/775c6a39-5647-4aa7-bce6-e3aaf705acea")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -81876,6 +83390,12 @@
 		(path "/9dff29e8-d180-4eb6-9106-0e28a3d97886")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -82488,6 +84008,12 @@
 		(path "/5b86d1a5-c466-46cb-b78d-667048dbcea9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -83101,6 +84627,12 @@
 		(path "/0b85c57e-4040-4786-82ad-6a68ebdb0997")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -83604,6 +85136,12 @@
 		(path "/55a96d04-c819-416b-baca-d4120f7a0453")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84216,6 +85754,12 @@
 		(path "/bd6b8620-2630-4100-a483-8710c63ab68e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -84828,6 +86372,12 @@
 		(path "/4642f92d-1f28-4057-b00d-33d4c7c09951")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -85441,6 +86991,12 @@
 		(path "/ff646fc8-9c52-42e9-9171-abe0085818af")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -85945,6 +87501,12 @@
 		(path "/4b5ad1ac-5f03-4b22-a10d-f5cc930cac56")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -86448,6 +88010,12 @@
 		(path "/94946d00-661b-4098-a3e5-6b15fe0cb3fd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87060,6 +88628,12 @@
 		(path "/6a6bf924-f535-4c9e-86bd-35a6e9470951")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -87673,6 +89247,12 @@
 		(path "/94ba2f67-511a-41ba-a65b-557e5fd5214b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -88177,6 +89757,12 @@
 		(path "/6fdb2a8b-92ba-431c-8486-ffb4c155374d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -88681,6 +90267,12 @@
 		(path "/59ea6173-062d-434e-8dab-3dd27d04baf4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -89185,6 +90777,12 @@
 		(path "/84820044-48bb-421a-8caa-35056416c827")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -89688,6 +91286,12 @@
 		(path "/85ddbf6d-8cf7-47c6-803c-e7159254e53a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -90301,6 +91905,12 @@
 		(path "/f0ea8b57-eb3e-47f6-a703-a83291c4401c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -90805,6 +92415,12 @@
 		(path "/27c2e7ee-1354-4040-9597-717775aa3258")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -91308,6 +92924,12 @@
 		(path "/f729c932-eb76-45a2-9557-abd3908818ff")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -91920,6 +93542,12 @@
 		(path "/d7f1faf3-2077-4805-880d-c130126b6276")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -92533,6 +94161,12 @@
 		(path "/89a3c777-a766-4fe0-a898-9721a33a2e5c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -93037,6 +94671,12 @@
 		(path "/76b7d69c-46df-40d4-bd37-599190139d64")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -93540,6 +95180,12 @@
 		(path "/743188e0-f830-4cf8-8248-31e30cc51c04")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -94153,6 +95799,12 @@
 		(path "/fbab5a63-a32e-48ce-8bca-f9d8615a2075")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -94657,6 +96309,12 @@
 		(path "/9b692dcf-39a7-4d4b-bd3e-cc3dc51bfd37")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -95161,6 +96819,12 @@
 		(path "/cfecf45b-0b3c-422a-b902-ef413b7d69d7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -95664,6 +97328,12 @@
 		(path "/1537e20b-2ad6-4d01-ab68-1c1b5963913a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -96276,6 +97946,12 @@
 		(path "/18f25283-8889-40be-8e94-a6124aef23a4")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -96889,6 +98565,12 @@
 		(path "/648ecf1f-fcbf-4d9c-bb96-f9ba585f97dd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -97393,6 +99075,12 @@
 		(path "/d7533375-ff06-4cb4-9bbb-122669149d3d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -97896,6 +99584,12 @@
 		(path "/e2cde78f-7ce9-47ea-bab0-6758ef12408c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -98509,6 +100203,12 @@
 		(path "/7ca22fe4-426a-4187-87b8-d5e51d0cef2d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -99012,6 +100712,12 @@
 		(path "/94b60ae6-d25e-4f66-850d-1ebc657f11f0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -99625,6 +101331,12 @@
 		(path "/b3656b56-d830-4179-9ea3-6ec73f76f93b")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -100129,6 +101841,15 @@
 		(path "/d7f40579-1d33-4d69-ad88-fec96a76702e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "10" "0" "1" "GND" "2" "3" "4" "5" "6" "7" "8" "9" "12" "BOOT"
+					"13" "25" "14" "18" "15" "24" "16" "11" "5V" "RST" "3V3" "29" "28" "27"
+					"26" "22" "20" "23" "21"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -100741,6 +102462,12 @@
 		(path "/b450bbc9-1eeb-4337-b47a-a94a51519890")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -101353,6 +103080,12 @@
 		(path "/ed870044-41e5-4eea-9a95-09d1eee9aa7c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -101966,6 +103699,12 @@
 		(path "/f800928a-1a7f-4090-8d2c-b779887cfa22")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -102470,6 +104209,12 @@
 		(path "/b19ec720-0187-4c51-af57-b7ad1bd5d7d8")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -102973,6 +104718,12 @@
 		(path "/79f68ec6-61e0-4a0f-bef1-bf867d6eaf92")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -103585,6 +105336,12 @@
 		(path "/3e601e68-6e3b-4900-94fc-4f8608d05a8c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -104197,6 +105954,12 @@
 		(path "/1cf41131-d08c-4fc5-b98b-66ad18240c6c")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -104810,6 +106573,12 @@
 		(path "/4425f6a5-cbd0-4e99-8309-53eb1cc98838")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -105313,6 +107082,12 @@
 		(path "/94f17224-27f7-48ee-8f6d-ed84f2cd8343")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -105926,6 +107701,12 @@
 		(path "/cad4f345-8174-4f17-acf4-fa507a898686")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -106430,6 +108211,12 @@
 		(path "/c3d2d044-f1f3-4872-a847-09815f5ef8aa")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -106934,6 +108721,12 @@
 		(path "/eab084e2-4209-4f6e-8054-45ab9fbd82e9")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -107438,6 +109231,12 @@
 		(path "/0d527cce-dc49-4393-a8ac-6e4fc0b2891f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -107941,6 +109740,12 @@
 		(path "/97d9167e-31ad-49ac-8156-f62f88667a22")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -108554,6 +110359,12 @@
 		(path "/084ea199-c115-4ad0-9f1d-3653cc5b69b2")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -109057,6 +110868,12 @@
 		(path "/1d0dc66c-60a2-420d-9c76-fd48e5557c7e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -109669,6 +111486,12 @@
 		(path "/a691aff6-59f4-4614-9768-eafa1954a54d")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -110282,6 +112105,12 @@
 		(path "/04b92b33-2539-4e5f-8b5b-571c5b35f63f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -110785,6 +112614,12 @@
 		(path "/484eb112-44bc-4667-8d30-47436fc2c745")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -111398,6 +113233,12 @@
 		(path "/040da2f0-ea11-4174-9836-a6f3d1871173")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -111901,6 +113742,12 @@
 		(path "/b78d661f-de52-4ec5-b2af-211d6f71cc44")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -112514,6 +114361,12 @@
 		(path "/8c4acd8d-1bc1-4b2c-84b2-567fe95c5ced")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -113017,6 +114870,12 @@
 		(path "/667d146f-5da9-45cf-ae47-40b55b5b134f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -113629,6 +115488,12 @@
 		(path "/14b9ec97-7297-4712-ac6e-06b644053edc")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -114242,6 +116107,12 @@
 		(path "/09101b7d-3454-4ac1-b165-9c773112bcdb")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -114746,6 +116617,12 @@
 		(path "/ea9b7787-3afc-43a2-8edb-267edd032444")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -115249,6 +117126,12 @@
 		(path "/08d51b97-a52c-4724-9089-64315762ffd7")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -115861,6 +117744,12 @@
 		(path "/78a44499-b5a9-4720-8e58-51b0744cee53")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -116473,6 +118362,12 @@
 		(path "/a712f8a1-32fd-48a0-bb78-cc932e625e29")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -117086,6 +118981,12 @@
 		(path "/35d4b6d8-ba68-4ec8-8195-da80c0e0c98f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -117589,6 +119490,12 @@
 		(path "/9d533bae-ed05-4269-9a21-bfd241f21540")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -118202,6 +120109,12 @@
 		(path "/afef2f23-e3f7-40b1-90f9-3d932dee87f0")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -118705,6 +120618,12 @@
 		(path "/1dad4401-041e-4113-91f9-61d63f29ff18")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -119318,6 +121237,12 @@
 		(path "/9629dd86-6ef2-4cff-a313-4b3515fbff09")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -119821,6 +121746,12 @@
 		(path "/57f46d13-d87e-4df1-a875-b91644ee572a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -120433,6 +122364,12 @@
 		(path "/2d674280-fddd-476b-b326-4be3435a657f")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -121045,6 +122982,12 @@
 		(path "/72c2f2a4-179d-4eb1-aba5-43b9e9486edd")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -121657,6 +123600,12 @@
 		(path "/72bb0aef-6a81-47b4-a500-f5190861fc3a")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -122270,6 +124219,12 @@
 		(path "/33c49ab4-9fc5-46f4-b68c-33fd045e1377")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -122773,6 +124728,12 @@
 		(path "/0eee8cdb-2a38-4d7a-be20-0801794bc00e")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -123386,6 +125347,12 @@
 		(path "/54f98667-c92b-4961-907d-bbd57f5cea95")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -123889,6 +125856,12 @@
 		(path "/2736ac51-760f-4354-a30d-ca949665f444")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -124501,6 +126474,12 @@
 		(path "/4ee551f7-2b10-4b83-9290-4c4a61cb72cf")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -125114,6 +127093,12 @@
 		(path "/0c992ec9-39cc-460b-ad9b-9cb157117f92")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "4" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -125617,6 +127602,12 @@
 		(path "/0a1ab761-dcee-4946-9db5-4c10cf8c3acf")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -126229,6 +128220,12 @@
 		(path "/4b0b138b-e344-4c39-ad0a-855ba0769822")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -126841,6 +128838,12 @@
 		(path "/9c8de462-f67a-4922-9979-edca41691025")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -127453,6 +129456,12 @@
 		(path "/c6e46d98-1f86-4c2a-9467-bb153648e1ce")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -128065,6 +130074,12 @@
 		(path "/b4b83365-7234-4503-a344-d340f9da97f3")
 		(sheetname "/")
 		(sheetfile "Crazy-75.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
