@@ -1,4 +1,62 @@
 
+# 10 October 2026 - Preparing for PCB routing
+
+**Time spent: 1 h**
+
+### Researching PCB routing and manufacturing requirements
+
+Today I started preparing for the PCB routing stage of Crazy-75.
+
+Before connecting hundreds of components, I wanted to make sure the PCB design rules were based on actual manufacturing capabilities rather than arbitrary values.
+
+I researched PCBWay's manufacturing specifications, including minimum trace widths, copper clearances, via dimensions, board thickness and copper weight.
+
+I also compared 1 oz and 2 oz copper due to the large amount of LEDs on the board, ultimately leaning towards 1 oz because it offers sufficient flexibility for the densely populated keyboard PCB, provided the power distribution is designed appropriately.
+
+### Configuring KiCad and troubleshooting DRC
+
+I began configuring KiCad's design rules and ran the Design Rules Checker (DRC).
+
+This initially produced numerous copper-to-edge clearance errors around the SK6812 MINI-E RGB LEDs. The reported distances also changed as I adjusted the minimum clearance, which made the problem confusing to diagnose.
+
+After researching PCBWay's manufacturing tolerances, I changed the minimum copper-to-edge clearance to **0.25 mm**, matching their published normal-process specification. This eliminated the reported errors.
+
+### Investigating power limitations
+
+Another important question was how much current the keyboard can safely draw through its **TENSTAR RP2040 Pro Micro 16MB** development board.
+
+With approximately 81 individually addressable RGB LEDs, the power supply could become a significant limitation.
+
+I researched USB power limits and the development board's specifications, but could not find reliable documentation confirming the maximum current that can pass from its USB-C connector to the 5V pin.
+
+I therefore contacted TENSTAR 02 Store by email, requesting information about the maximum continuous output current, USB power-path components, USB-C configuration and any available schematics.
+
+### Investigating autorouting
+
+Given the large number of connections, I also investigated alternatives to manually routing the entire PCB.
+
+I decided to try **Freerouting**, an open-source autorouter compatible with KiCad, and installed its plugin.
+
+The current plan is to use autorouting for most of the switch matrix and signal connections while paying particular attention to the 5V power distribution, grounding and RGB LED circuitry.
+
+### Current state and next steps
+
+The PCB routing rules have been partially configured, the initial DRC errors have been resolved, and Freerouting is installed.
+
+I am now waiting for technical information from two sources:
+
+- **TENSTAR:** USB power-path specifications and safe current limits.
+    
+- **PCBWay:** Engineering advice on the SLS PA12 switch plate openings and confirmation of manufacturing details.
+    
+
+**Next step:** Test Freerouting on a separate copy of the PCB, evaluate the resulting connections and continue refining the design rules as the manufacturers provide more information.
+
+_Time spent watching KiCad tutorials on YouTube is not included in the recorded hour._
+
+---
+
+
 # 9 October 2026 - Finishing the functional case design
 
 **Time spent: 1 h 30 min**
