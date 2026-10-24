@@ -1,4 +1,34 @@
 
+# 24 October 2026 - Reworking USB and RGB power
+
+**Time spent: 2 h 30 min**
+
+### Schematic changes
+
+Today I added a separate USB-C connector and changed the controller to the **Frood RP2040**. I added USB protection and two current-limited power switches: one for the entire keyboard and one only for the RGB LEDs.
+
+I spent quite a while understanding the circuit instead of just copying setups from the internet. This feels embarrassing since I decided to embark on the journey to create a custom mechanical keyboard from the ground up, but, for example, today I learned the true purpose of Pull-up and pull-down resistors which now finally make more sense, including why the buffer needs a high signal to disable its output.
+
+I decided on a 500 mA power budget which is the the max. current available through conventional USB2.0 ports. And since I only want a gentle glow in the dark, running every LED at full brightness is unnecessary. All the LEDs together could draw several amps, that is why they got their own power limiting switch inside the already power-limited network.
+
+The case has roughly 6 mm underneath the PCB, so I chose low-profile capacitors instead of the tall electrolytic ones. I also selected hand-solder footprints wherever I could, hopefully making life easier for future me.
+
+ERC found no warnings.
+
+#### The reason for this change?
+
+I could not reliably verify the max. current which I could pass through the previously used **TENSTAR RP2040 Pro Micro** and it was bothering me a lot. So I decided to get rid of it and use a module which allows me to install a separate USB-C receptacle and connect the data and power pins to it without having to pass the whole 0.5A through it. 
+
+### Next step
+
+Update the PCB from the schematic, arrange the newly added components and check component placement against the case before routing.
+
+![PCB-schematic-rework](images/24.10.2026_PCB-schematic-rework.png)
+
+
+---
+
+
 # 10 October 2026 - Preparing for PCB routing
 
 **Time spent: 1 h**

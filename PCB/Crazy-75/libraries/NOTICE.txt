@@ -1,0 +1,5 @@
+Frood module symbol and carrier footprint are derived from piit79/42keebs-kicad, commit f58ad8b, licensed under Apache-2.0.
+Source: https://github.com/piit79/42keebs-kicad/tree/f58ad8b
+Modifications: project-local footprint reference; Rev9 GPIO10/11 jumper configuration; corrected module metadata and carrier labels. The symbol requires JP3 and JP4 cut.
+
+The TPS2553DBVR symbol uses pin assignments documented by Texas Instruments for the DBV package. It is a project-specific schematic symbol, not a TI-issued CAD model.
