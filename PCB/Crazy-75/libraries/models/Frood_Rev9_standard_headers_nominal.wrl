@@ -1,0 +1,98 @@
+#VRML V2.0 utf8
+# Nominal Frood Rev9 carrier assembly. Millimetres expressed in KiCad VRML 0.1-inch units.
+# 2.54 mm assumed spacer, 1.6 mm module PCB. USB socket removed; pins trimmed.
+# Visual proxy only: no verified Rev9.1 component model or supplied-header drawing.
+# Module PCB - nominal 1.6 mm
+Transform { translation 0.0 -6.093110236220472 1.3149606299212597 children [ Shape { appearance Appearance { material Material { diffuseColor 0.05 0.055 0.06 } } geometry Box { size 7.0 13.341732283464566 0.6299212598425197 } } ] }
+# 12-pin spacer
+Transform { translation -3.0 -6.500000000000001 0.5 children [ Shape { appearance Appearance { material Material { diffuseColor 0.09 0.09 0.09 } } geometry Box { size 1.0 12.0 1.0 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -1.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -2.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -3.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -4.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -5.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -6.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -7.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -8.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -9.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -10.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -11.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -3.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# 12-pin spacer
+Transform { translation 3.0 -6.500000000000001 0.5 children [ Shape { appearance Appearance { material Material { diffuseColor 0.09 0.09 0.09 } } geometry Box { size 1.0 12.0 1.0 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -1.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -2.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -3.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -4.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -5.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -6.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -7.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -8.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -9.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -10.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -11.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 3.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# 5-pin bottom spacer
+Transform { translation 0.0 -12.0 0.5 children [ Shape { appearance Appearance { material Material { diffuseColor 0.09 0.09 0.09 } } geometry Box { size 5.0 1.0 1.0 } } ] }
+# Trimmed header pin
+Transform { translation -2.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation -1.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 0.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 1.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# Trimmed header pin
+Transform { translation 2.0 -12.0 0.3425196850393701 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.52 0.18 } } geometry Box { size 0.19685039370078738 0.19685039370078738 2.889763779527559 } } ] }
+# RP2040 package proxy
+Transform { translation 0.002437795275590551 -7.844053937007874 1.8464566929133859 children [ Shape { appearance Appearance { material Material { diffuseColor 0.12 0.12 0.13 } } geometry Box { size 2.7559055118110236 2.7559055118110236 0.4330708661417323 } } ] }
+# Flash package proxy
+Transform { translation -1.4345700787401574 -5.324368897637795 1.8070866141732282 children [ Shape { appearance Appearance { material Material { diffuseColor 0.14 0.14 0.15 } } geometry Box { size 1.574803149606299 1.1811023622047243 0.3543307086614173 } } ] }
+# Regulator package proxy
+Transform { translation 1.6481661417322833 -4.644920078740157 1.9153543307086616 children [ Shape { appearance Appearance { material Material { diffuseColor 0.12 0.12 0.12 } } geometry Box { size 1.141732283464567 0.6299212598425197 0.5708661417322834 } } ] }
+# BOOT switch proxy
+Transform { translation -2.0078740157480315 -10.744527559055118 1.9251968503937007 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.45 0.43 } } geometry Box { size 0.7086614173228346 1.5354330708661417 0.5905511811023622 } } ] }
+# BOOT actuator
+Transform { translation -2.0078740157480315 -10.744527559055118 2.2401574803149606 children [ Shape { appearance Appearance { material Material { diffuseColor 0.1 0.1 0.1 } } geometry Box { size 0.3543307086614173 0.8267716535433071 0.03937007874015748 } } ] }
+# RESET switch proxy
+Transform { translation 2.0078740157480315 -10.744527559055118 1.9251968503937007 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.45 0.43 } } geometry Box { size 0.7086614173228346 1.5354330708661417 0.5905511811023622 } } ] }
+# RESET actuator
+Transform { translation 2.0078740157480315 -10.744527559055118 2.2401574803149606 children [ Shape { appearance Appearance { material Material { diffuseColor 0.1 0.1 0.1 } } geometry Box { size 0.3543307086614173 0.8267716535433071 0.03937007874015748 } } ] }
+# Passive proxy 0
+Transform { translation -0.37007874015748027 -5.692165354330709 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }
+# Passive proxy 1
+Transform { translation 0.9062992125984252 -5.692165354330709 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }
+# Passive proxy 2
+Transform { translation 1.6346456692913387 -5.692165354330709 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }
+# Passive proxy 3
+Transform { translation -1.8023622047244094 -6.633110236220472 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }
+# Passive proxy 4
+Transform { translation 2.1724409448818895 -6.584212598425197 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }
+# Passive proxy 5
+Transform { translation -0.3716535433070866 -4.8716141732283464 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }
+# Passive proxy 6
+Transform { translation 0.16141732283464566 -3.307283464566929 1.7480314960629924 children [ Shape { appearance Appearance { material Material { diffuseColor 0.45 0.37 0.28 } } geometry Box { size 0.39370078740157477 0.19685039370078738 0.23622047244094488 } } ] }

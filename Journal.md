@@ -1,4 +1,42 @@
 
+# 31 October 2026 - Cleaning up the BOM
+
+**Time spent: 1 h 30 min**
+
+### What I did
+
+Finally went through the whole BOM, checked the links, updated prices and compared ordering from AliExpress or 42. Keebs. I had been putting this off for a while because I knew the BOM was a mess.
+
+The hardware currently comes to about **€111**, excluding switches, keycaps and a USB cable. Anything added later will increase that, so hopefully there won't be much left to add since want to keep the costs down.
+
+### Next steps
+
+Redo the USB-C cutout in the case to match the new connector, then start routing the PCB.
+
+![PCB-3D-view_front_31.10.2026](images/PCB-3D-view_front_31.10.2026.png)
+![PCB-3D-view_back_31.10.2026](images/PCB-3D-view_back_31.10.2026.png)
+
+---
+
+
+# 30 October 2026 - PCB component placement
+
+**Time spent: 1 h 15 min**
+
+### What I did
+
+Placed the newly added components in the PCB editor and checked their positions against the case to avoid collisions once everything is assembled.
+
+I caught a few things along the way. The per-key LEDs will be soldered underneath the PCB, but I had placed their SMD capacitors on top. I moved all of those capacitors to the underside too, which should save a lot of unnecessary vias when routing.
+
+I also checked component heights and fixed the silkscreen overlaps that needed attention.
+
+![PCB-editor_30.10.2026](images/PCB-editor_30.10.2026.png)
+
+---
+
+
+
 # 24 October 2026 - Reworking USB and RGB power
 
 **Time spent: 2 h 30 min**
@@ -241,7 +279,7 @@ The bottom case will need to account for:
 
 # 26 September 2026 - Finishing the plate + RP2040 board placement rework
 
-**Time spent: 1 h 50 min**
+**Time spent: 2 h**
 
 ### Finishing the plate
 

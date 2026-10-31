@@ -3,3 +3,14 @@ Source: https://github.com/piit79/42keebs-kicad/tree/f58ad8b
 Modifications: project-local footprint reference; Rev9 GPIO10/11 jumper configuration; corrected module metadata and carrier labels. The symbol requires JP3 and JP4 cut.
 
 The TPS2553DBVR symbol uses pin assignments documented by Texas Instruments for the DBV package. It is a project-specific schematic symbol, not a TI-issued CAD model.
+
+
+Frood_Rev9_standard_headers_nominal.wrl is a dimensional visualization proxy for
+the project carrier, not an official Frood CAD model. Nominal module outline:
+17.78 x 33.888 mm; PCB thickness 1.6 mm. Assumed board-to-board gap: 2.54 mm.
+It depicts component-side-up mounting, 29 standard header pins trimmed above
+the module, and the original USB connector removed. Package blocks are simplified;
+pins, solder joints, supplied-header dimensions and Rev9.1 equivalence are unverified.
+Published dimensional references: https://github.com/piit79/Frood and
+https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/ .
+Do not use this proxy as manufacturing or final enclosure-clearance approval.
