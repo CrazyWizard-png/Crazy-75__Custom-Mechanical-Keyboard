@@ -1,4 +1,19 @@
 
+# 1 November 2026 - Updating the USB-C cutout
+
+**Time spent: 1 h**
+
+### What I did
+
+Redid the USB-C cutout in the case CAD model to match the new connector.
+
+### Next step
+
+Start routing the PCB.
+
+---
+
+
 # 31 October 2026 - Cleaning up the BOM
 
 **Time spent: 1 h 30 min**
@@ -12,9 +27,6 @@ The hardware currently comes to about **€111**, excluding switches, keycaps an
 ### Next steps
 
 Redo the USB-C cutout in the case to match the new connector, then start routing the PCB.
-
-![PCB-3D-view_front_31.10.2026](images/PCB-3D-view_front_31.10.2026.png)
-![PCB-3D-view_back_31.10.2026](images/PCB-3D-view_back_31.10.2026.png)
 
 ---
 
@@ -32,6 +44,8 @@ I caught a few things along the way. The per-key LEDs will be soldered underneat
 I also checked component heights and fixed the silkscreen overlaps that needed attention.
 
 ![PCB-editor_30.10.2026](images/PCB-editor_30.10.2026.png)
+![PCB-3D-view_front_31.10.2026](images/PCB-3D-view_front_31.10.2026.png)
+![PCB-3D-view_back_31.10.2026](images/PCB-3D-view_back_31.10.2026.png)
 
 ---
 
